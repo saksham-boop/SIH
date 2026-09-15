@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_URL } from '../config';
 import { Search, X, CheckCircle2, AlertTriangle, AlertOctagon, ArrowRight, ExternalLink } from 'lucide-react';
 
 export default function GlobalSearchModal({ isOpen, onClose, onSelectRecord }) {
@@ -23,7 +24,7 @@ export default function GlobalSearchModal({ isOpen, onClose, onSelectRecord }) {
     const timer = setTimeout(async () => {
       setLoading(true);
       try {
-        const res = await fetch(`http://127.0.0.1:8000/api/records?q=${encodeURIComponent(query)}`);
+        const res = await fetch(`${API_URL}/api/records?q=${encodeURIComponent(query)}`);
         const data = await res.json();
         setResults(data.reference_records || []);
       } catch (err) {

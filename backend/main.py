@@ -38,14 +38,16 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS configuration
+# CORS configuration — allow_credentials must be False when origins is wildcard
+# (browsers reject the combination of credentials=True + allow_origins=["*"])
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 # Static file serving for scans and annotated overlays
 app.mount("/static/uploads", StaticFiles(directory=UPLOADS_DIR), name="uploads")

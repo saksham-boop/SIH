@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sih-land-record-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    # Render sets PORT automatically — our Dockerfile CMD reads it via ${PORT:-10000}
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+    # Health check — Render pings this to confirm the service is alive
+    healthCheckPath: /

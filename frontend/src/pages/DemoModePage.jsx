@@ -1,188 +1,152 @@
-import React, { useState, useEffect } from 'react';
-import { 
-  Sparkles, 
-  CheckCircle2, 
-  AlertTriangle, 
-  AlertOctagon, 
-  ArrowRight, 
-  FileText, 
-  ShieldCheck, 
-  Clock,
-  Play,
-  Layers,
-  HelpCircle
-} from 'lucide-react';
+import React from 'react';
+import { Play, CheckCircle2, AlertTriangle, AlertOctagon } from 'lucide-react';
 
-export default function DemoModePage({ onSelectDemoCase }) {
-  const [demoCases, setDemoCases] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [loadingId, setLoadingId] = useState(null);
+/* ── 7 SIH demo scenarios ────────────────────────────────────────────────── */
+const DEMO_CASES = [
+  {
+    id: 'clean_record',
+    status: 'VALID',
+    title: 'Clean & Valid Record',
+    headline: '100% field concordance · zero discrepancies',
+    khasra: '245/2', owner: 'Ramesh Kumar', area: '1.05 ha',
+    score: 97.8,
+    highlight: 'Eligible for immediate automated revenue endorsement.',
+  },
+  {
+    id: 'area_mismatch',
+    status: 'REVIEW_REQUIRED',
+    title: 'Area Mismatch (+14.3%)',
+    headline: 'Declared 1.20 ha · registry shows 1.05 ha',
+    khasra: '245/2', owner: 'Ramesh Kumar', area: '1.20 ha declared',
+    score: 78.5,
+    highlight: 'Ground truthing by Revenue Inspector / Patwari recommended.',
+  },
+  {
+    id: 'owner_variation',
+    status: 'REVIEW_REQUIRED',
+    title: 'Owner Name Variation (94% fuzzy)',
+    headline: 'OCR: "Ramesh Kumar" · Registry: "Ramesh Kr."',
+    khasra: '246/1', owner: 'Ramesh Kumar / Ramesh Kr.', area: '0.88 ha',
+    score: 86.2,
+    highlight: 'Identity check against Aadhaar / Voter ID recommended.',
+  },
+  {
+    id: 'khasra_mismatch',
+    status: 'HIGH_RISK',
+    title: 'Khasra Mismatch (Plot Conflict)',
+    headline: 'Applicant claims 245/7 over registered parcel 245/2',
+    khasra: '245/7', owner: 'Ramesh Kumar', area: '1.05 ha',
+    score: 48.0,
+    highlight: 'Prevents potential fraudulent double-claim or boundary encroachment.',
+  },
+  {
+    id: 'mutation_issue',
+    status: 'HIGH_RISK',
+    title: 'Active Legal Encumbrance',
+    headline: 'Civil court injunction + contested inheritance',
+    khasra: '312/1', owner: 'Vikram Singh', area: '2.10 ha',
+    score: 52.0,
+    highlight: 'Active stay detected. Halts unauthorised registration until decree.',
+  },
+  {
+    id: 'degraded_scan',
+    status: 'REVIEW_REQUIRED',
+    title: 'Degraded Scan / Low OCR Confidence',
+    headline: 'Aged archive scan with faded ink — OCR at 58%',
+    khasra: '245/2', owner: 'Ramesh Kumar', area: '1.05 ha',
+    score: 74.0,
+    highlight: 'Officer guided to verify smudged numerical fields manually.',
+  },
+  {
+    id: 'multiple_anomalies',
+    status: 'HIGH_RISK',
+    title: 'Multiple Critical Anomalies',
+    headline: '+123% area inflation · owner mismatch · boundary litigation',
+    khasra: '245/7', owner: 'Dinesh Kumar Verma', area: '1.45 ha claimed / 0.65 ha registry',
+    score: 34.5,
+    highlight: 'Automatic referral to District Anti-Fraud Land Cell.',
+  },
+];
 
-  useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/demo-cases')
-      .then(res => res.json())
-      .then(data => setDemoCases(data || []))
-      .catch(err => console.error("Demo cases fetch error:", err))
-      .finally(() => setLoading(false));
-  }, []);
+const STATUS_CONFIG = {
+  VALID:           { Icon: CheckCircle2, cls: 'badge-valid',   bg: 'bg-emerald-50 border-emerald-200' },
+  REVIEW_REQUIRED: { Icon: AlertTriangle, cls: 'badge-review', bg: 'bg-amber-50 border-amber-200' },
+  HIGH_RISK:       { Icon: AlertOctagon,  cls: 'badge-risk',   bg: 'bg-rose-50 border-rose-200' },
+};
 
-  const handleRunDemo = async (presetId) => {
-    setLoadingId(presetId);
-    try {
-      const res = await fetch(`http://127.0.0.1:8000/api/process-preset/${presetId}`, {
-        method: "POST"
-      });
-      const data = await res.json();
-      onSelectDemoCase(data);
-    } catch (err) {
-      console.error("Demo load error:", err);
-    } finally {
-      setLoadingId(null);
-    }
-  };
-
+export default function DemoModePage({ onSelectDemo }) {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-in fade-in duration-200">
-      
-      {/* SIH Presentation Header Banner */}
-      <div className="bg-gradient-to-r from-amber-900 via-slate-900 to-amber-950 text-white p-6 rounded-2xl border border-amber-700/50 shadow-md flex flex-col md:flex-row md:items-center justify-between gap-6">
-        <div>
-          <div className="flex items-center gap-2 mb-2">
-            <span className="bg-amber-400 text-amber-950 font-black text-[11px] px-2.5 py-0.5 rounded uppercase tracking-wider font-mono">
-              SIH Evaluator Mode
-            </span>
-            <span className="text-amber-200 text-xs font-mono">7 Pre-Configured Test Scenarios</span>
-          </div>
-          <h2 className="text-xl md:text-2xl font-black text-white font-['Outfit',sans-serif]">
-            Demonstration Presets & Anomaly Showcases
-          </h2>
-          <p className="text-xs text-amber-100/80 max-w-2xl mt-1">
-            Engineered specifically for Smart India Hackathon jury evaluations. Test clean concordances, numeric area variances, orthographic fuzzy matching, boundary conflicts, and legal encumbrances with 100% deterministic reliability.
-          </p>
-        </div>
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 space-y-8">
 
-        <div className="bg-slate-950/60 p-4 rounded-xl border border-amber-500/30 text-xs space-y-1.5 flex-shrink-0">
-          <div className="font-bold text-amber-300 flex items-center gap-1.5">
-            <Clock className="w-4 h-4" />
-            Recommended 3-Min Jury Pitch
-          </div>
-          <p className="text-[11px] text-slate-300">
-            1. Show Case 1 (Valid baseline)<br />
-            2. Show Case 2 (Area mismatch +0.15 ha)<br />
-            3. Show Case 3 (Fuzzy owner name 94%)<br />
-            4. Show Case 4 or 7 (Boundary conflict / Stay)
-          </p>
-        </div>
+      {/* Page header */}
+      <div className="space-y-1">
+        <h2 className="text-2xl font-bold text-slate-900">Demo Scenarios</h2>
+        <p className="text-sm text-slate-500">
+          Seven pre-configured SIH judging scenarios. Click any card to run the full
+          validation pipeline instantly.
+        </p>
       </div>
 
-      {/* Grid of 7 SIH Judging Scenarios */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {demoCases.map((c) => {
-          const isRisk = c.expected_status === 'HIGH_RISK';
-          const isReview = c.expected_status === 'REVIEW_REQUIRED';
-          const badgeClass = isRisk ? 'badge-risk' : isReview ? 'badge-review' : 'badge-valid';
-          const isLoading = loadingId === c.id;
-
+      {/* Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {DEMO_CASES.map((demo, idx) => {
+          const { Icon, cls, bg } = STATUS_CONFIG[demo.status];
           return (
-            <div
-              key={c.id}
-              className={`gov-card p-5 flex flex-col justify-between border-t-4 transition-all duration-150 hover:-translate-y-1 ${
-                isRisk ? 'border-t-rose-600' : isReview ? 'border-t-amber-500' : 'border-t-emerald-600'
-              }`}
+            <button
+              key={demo.id}
+              onClick={() => onSelectDemo(demo.id)}
+              className="gov-card text-left p-5 hover:shadow-md hover:border-sky-300 transition-all group"
             >
-              <div className="space-y-3">
-                <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-bold text-sm text-slate-900 font-['Outfit',sans-serif]">
-                    {c.title}
-                  </h3>
-                  <span className={badgeClass}>
-                    {isRisk ? <AlertOctagon className="w-3 h-3" /> : isReview ? <AlertTriangle className="w-3 h-3" /> : <CheckCircle2 className="w-3 h-3" />}
-                    {c.expected_status.replace(/_/g, ' ')}
+              {/* Case number + status badge */}
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-[10px] font-bold text-slate-400 font-mono">CASE {idx + 1}</span>
+                <span className={cls}>
+                  <Icon className="w-3 h-3" />
+                  {demo.status.replace(/_/g, ' ')}
+                </span>
+              </div>
+
+              {/* Title */}
+              <div className="text-sm font-bold text-slate-900 mb-1">{demo.title}</div>
+              <div className="text-xs text-slate-500 mb-3 leading-relaxed">{demo.headline}</div>
+
+              {/* Field summary */}
+              <div className={`rounded-lg border px-3 py-2 mb-3 text-xs space-y-1 ${bg}`}>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Khasra</span>
+                  <span className="font-mono font-semibold text-slate-800">{demo.khasra}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Owner</span>
+                  <span className="font-semibold text-slate-800 text-right max-w-[140px] truncate" title={demo.owner}>
+                    {demo.owner}
                   </span>
                 </div>
-
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  {c.description}
-                </p>
-
-                {/* Key Attributes Box */}
-                <div className="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-xs space-y-1">
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">Khasra / Khata:</span>
-                    <strong className="text-slate-900 font-mono">{c.khasra} (Khata {c.khata})</strong>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">Applicant / Owner:</span>
-                    <strong className="text-slate-900">{c.owner}</strong>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">Digitized vs Ref Area:</span>
-                    <span className="font-mono font-bold text-slate-800">
-                      {c.area_ha} ha <span className="text-slate-400">vs</span> {c.ref_area_ha} ha
-                    </span>
-                  </div>
-                  <div className="flex justify-between pt-1 border-t border-slate-200 text-sky-950 font-semibold">
-                    <span>Expected AI Score:</span>
-                    <span className="font-mono text-emerald-700 font-bold">{c.expected_score}%</span>
-                  </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Area</span>
+                  <span className="font-mono font-semibold text-slate-800">{demo.area}</span>
                 </div>
-
-                {/* Highlight Notice */}
-                <div className="text-[11px] bg-amber-50/80 border border-amber-200 text-amber-950 p-2 rounded flex items-start gap-1.5">
-                  <Sparkles className="w-3.5 h-3.5 text-amber-600 flex-shrink-0 mt-0.5" />
-                  <span>{c.highlight}</span>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Expected score</span>
+                  <span className={`font-bold font-mono ${
+                    demo.status === 'VALID' ? 'text-emerald-700' :
+                    demo.status === 'REVIEW_REQUIRED' ? 'text-amber-700' : 'text-rose-700'
+                  }`}>{demo.score}%</span>
                 </div>
               </div>
 
-              {/* Action Button */}
-              <div className="mt-4 pt-3 border-t border-slate-100">
-                <button
-                  onClick={() => handleRunDemo(c.id)}
-                  disabled={isLoading}
-                  className="w-full bg-slate-900 hover:bg-sky-950 text-white font-bold py-2.5 px-3 rounded-lg text-xs flex items-center justify-center gap-2 shadow transition-all disabled:opacity-50"
-                >
-                  {isLoading ? (
-                    <>
-                      <span className="w-3.5 h-3.5 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
-                      <span>Loading Analysis...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Play className="w-3.5 h-3.5 fill-current text-amber-400" />
-                      <span>Inspect in Review View</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </>
-                  )}
-                </button>
+              {/* Highlight */}
+              <p className="text-[11px] text-slate-500 leading-relaxed">{demo.highlight}</p>
+
+              {/* CTA */}
+              <div className="mt-4 flex items-center gap-1.5 text-sky-700 text-xs font-semibold group-hover:gap-2.5 transition-all">
+                <Play className="w-3.5 h-3.5 fill-sky-700" />
+                Run this scenario
               </div>
-            </div>
+            </button>
           );
         })}
       </div>
-
-      {/* Philosophy Statement Callout Card */}
-      <div className="gov-card p-6 bg-slate-900 text-white border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="space-y-2">
-          <span className="text-amber-400 font-bold text-xs uppercase tracking-wider font-mono">
-            Core SIH Hackathon Value Proposition
-          </span>
-          <blockquote className="text-base font-bold text-slate-100 italic">
-            “The system does not just digitize land records. It identifies which digitized records may not be trustworthy yet — and explains why with transparent evidence.”
-          </blockquote>
-          <p className="text-xs text-slate-400">
-            Eliminating arbitrary black-box AI decisions and delivering actionable administrative ground-truthing recommendations to revenue officers.
-          </p>
-        </div>
-
-        <div className="flex-shrink-0">
-          <div className="text-center p-3 bg-slate-800/80 rounded-xl border border-slate-700">
-            <ShieldCheck className="w-8 h-8 text-emerald-400 mx-auto mb-1" />
-            <span className="text-xs font-bold text-white block">Audit-Ready</span>
-            <span className="text-[10px] text-slate-400">U.P. Revenue Code 2006</span>
-          </div>
-        </div>
-      </div>
-
     </div>
   );
 }

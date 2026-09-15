@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_URL } from '../config';
 import { 
   FileText, 
   CheckCircle2, 
@@ -88,7 +89,7 @@ export default function OfficerReviewPage({ recordData, onActionSuccess, onNavig
     setSubmittingAction(true);
     try {
       if (id) {
-        await fetch(`http://127.0.0.1:8000/api/records/${id}/action`, {
+        await fetch(`${API_URL}/api/records/${id}/action`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ decision, notes: actionNotes })
@@ -232,7 +233,7 @@ export default function OfficerReviewPage({ recordData, onActionSuccess, onNavig
               className="transition-transform duration-150"
             >
               <img
-                src={activeImageUrl ? `http://127.0.0.1:8000${activeImageUrl}` : ""}
+                src={activeImageUrl ? `${API_URL}${activeImageUrl}` : ""}
                 alt="Land record document scan"
                 className="max-w-full rounded shadow-lg object-contain"
               />

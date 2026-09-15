@@ -1,73 +1,54 @@
 import React, { useState, useEffect } from 'react';
+import { API_URL } from './config';
+import './App.css';
 import Navbar from './components/Navbar';
 import GlobalSearchModal from './components/GlobalSearchModal';
 import Dashboard from './pages/Dashboard';
 import UploadPage from './pages/UploadPage';
-import OfficerReviewPage from './pages/OfficerReviewPage';
+import ProcessingPage from './pages/ProcessingPage';
+import ResultPage from './pages/ResultPage';
 import CadastralMapPage from './pages/CadastralMapPage';
 import DemoModePage from './pages/DemoModePage';
 
 export default function App() {
+  // Main navigation state
   const [activeTab, setActiveTab] = useState('dashboard');
+  // Current validated record (shown in ResultPage)
   const [currentRecord, setCurrentRecord] = useState(null);
+  // Job queued for processing — { type: 'upload', formData } | { type: 'demo', presetId }
+  const [processingJob, setProcessingJob] = useState(null);
+  // Cadastral map selection
   const [selectedMapKhasra, setSelectedMapKhasra] = useState('245/2');
+  // Global search modal
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
-  // Pre-load default demo record (Record B: Area Mismatch) so Review view is ready immediately
+  // Ctrl+K global search shortcut
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/process-preset/area_mismatch', { method: 'POST' })
-      .then(res => res.json())
-      .then(data => setCurrentRecord(data))
-      .catch(err => console.error("Could not pre-load initial demo record:", err));
-  }, []);
-
-  // Keyboard shortcut Ctrl+K for search
-  useEffect(() => {
-    const handleKeyDown = (e) => {
+    const onKey = (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         setIsSearchOpen(prev => !prev);
       }
     };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
   }, []);
 
-  const handleProcessingComplete = (result) => {
-    setCurrentRecord(result);
-    setActiveTab('review');
+  /* ── Navigation handlers ─────────────────────────────────────────────── */
+
+  const handleStartUpload = (formData) => {
+    setProcessingJob({ type: 'upload', formData });
+    setActiveTab('processing');
   };
 
-  const handleSelectDemoCase = (demoRecord) => {
-    setCurrentRecord(demoRecord);
-    setActiveTab('review');
+  const handleStartDemo = (presetId) => {
+    setProcessingJob({ type: 'demo', presetId });
+    setActiveTab('processing');
   };
 
-  const handleSelectSearchResult = async (refRecord) => {
-    try {
-      // Find or generate processed record for this Khasra
-      const res = await fetch(`http://127.0.0.1:8000/api/process-preset/clean_record`, { method: 'POST' });
-      const data = await res.json();
-      data.reference_record = refRecord;
-      data.extracted_fields.khasra_number = refRecord.khasra_no;
-      data.extracted_fields.owner_name = refRecord.owner_name;
-      data.extracted_fields.area = refRecord.area_hectares;
-      setCurrentRecord(data);
-      setActiveTab('review');
-    } catch (err) {
-      console.error("Search result load error:", err);
-    }
-  };
-
-  const handleNavigateReview = async (recordId) => {
-    try {
-      const res = await fetch(`http://127.0.0.1:8000/api/records/${recordId}`);
-      const data = await res.json();
-      setCurrentRecord(data.record || currentRecord);
-      setActiveTab('review');
-    } catch (err) {
-      setActiveTab('review');
-    }
+  const handleProcessingComplete = (record) => {
+    setCurrentRecord(record);
+    setActiveTab('result');
   };
 
   const handleNavigateMap = (khasra) => {
@@ -76,55 +57,63 @@ export default function App() {
   };
 
   const handleSelectParcelFromMap = (khasra) => {
-    // If selecting 245/7, load khasra mismatch preset, if 312/1 load mutation preset, etc.
-    if (khasra === '245/7') {
-      fetch('http://127.0.0.1:8000/api/process-preset/khasra_mismatch', { method: 'POST' })
-        .then(res => res.json())
-        .then(data => {
-          setCurrentRecord(data);
-          setActiveTab('review');
-        });
-    } else if (khasra === '312/1') {
-      fetch('http://127.0.0.1:8000/api/process-preset/mutation_issue', { method: 'POST' })
-        .then(res => res.json())
-        .then(data => {
-          setCurrentRecord(data);
-          setActiveTab('review');
-        });
-    } else {
-      setActiveTab('review');
+    const presetMap = { '245/7': 'khasra_mismatch', '312/1': 'mutation_issue' };
+    handleStartDemo(presetMap[khasra] || 'clean_record');
+  };
+
+  const handleSelectSearchResult = async (refRecord) => {
+    try {
+      const res = await fetch(`${API_URL}/api/process-preset/clean_record`, { method: 'POST' });
+      const data = await res.json();
+      data.reference_record  = refRecord;
+      data.extracted_fields.khasra_number = refRecord.khasra_no;
+      data.extracted_fields.owner_name    = refRecord.owner_name;
+      data.extracted_fields.area          = refRecord.area_hectares;
+      setCurrentRecord(data);
+      setActiveTab('result');
+    } catch (err) {
+      console.error('Search result load error:', err);
     }
   };
 
+  /* ── Render ──────────────────────────────────────────────────────────── */
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-800">
-      {/* Government Navigation Bar */}
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         onOpenSearch={() => setIsSearchOpen(true)}
-        reviewCount={currentRecord ? 1 : 0}
+        hasResult={!!currentRecord}
       />
 
-      {/* Main Viewport Content */}
-      <main className="flex-1 pb-12">
+      <main className="flex-1">
         {activeTab === 'dashboard' && (
           <Dashboard
-            onNavigateReview={handleNavigateReview}
-            onNavigateUpload={() => setActiveTab('upload')}
-            onNavigateDemo={() => setActiveTab('demo')}
+            onStartUpload={() => setActiveTab('upload')}
+            onStartDemo={handleStartDemo}
           />
         )}
 
         {activeTab === 'upload' && (
-          <UploadPage onProcessingComplete={handleProcessingComplete} />
+          <UploadPage
+            onStartProcessing={handleStartUpload}
+            onStartDemo={handleStartDemo}
+          />
         )}
 
-        {activeTab === 'review' && (
-          <OfficerReviewPage
-            recordData={currentRecord}
-            onActionSuccess={(decision) => console.log("Recorded:", decision)}
+        {activeTab === 'processing' && processingJob && (
+          <ProcessingPage
+            job={processingJob}
+            onComplete={handleProcessingComplete}
+          />
+        )}
+
+        {activeTab === 'result' && (
+          <ResultPage
+            record={currentRecord}
             onNavigateMap={handleNavigateMap}
+            onUploadNew={() => setActiveTab('upload')}
           />
         )}
 
@@ -136,31 +125,30 @@ export default function App() {
         )}
 
         {activeTab === 'demo' && (
-          <DemoModePage onSelectDemoCase={handleSelectDemoCase} />
+          <DemoModePage onSelectDemo={handleStartDemo} />
         )}
       </main>
 
-      {/* Global Search Modal */}
+      {/* Footer */}
+      <footer className="bg-slate-900 border-t border-slate-800 py-5">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+            <span className="text-sm font-medium text-slate-300">
+              National Informatics Centre (NIC) · Land Records Division
+            </span>
+          </div>
+          <span className="text-xs text-slate-500 text-center">
+            Smart India Hackathon · AI Decision Support · Final authority rests with authorized revenue officials.
+          </span>
+        </div>
+      </footer>
+
       <GlobalSearchModal
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
         onSelectRecord={handleSelectSearchResult}
       />
-
-      {/* Public Sector Official Footer */}
-      <footer className="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
-            <span className="font-medium text-slate-300">
-              National Informatics Centre (NIC) • Land Records Computerization Division
-            </span>
-          </div>
-          <div className="text-[11px] text-slate-500 text-center sm:text-right">
-            Designed for Smart India Hackathon (SIH) • AI-Assisted Decision Support System • Disclaimer: Final legal decisions remain with authorized revenue officials.
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
