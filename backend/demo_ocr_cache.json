@@ -1,0 +1,9347 @@
+{
+  "clean_record": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_1_clean_record.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 71.3,
+    "word_count": 140,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE / =~ ===72> (2=-222222 22222)\nROR / JAMABANDI -====== =====2)\nState: Uttar Pradesh Village: Rampur Doc ID: UP-REV-2024-8841\nDistrict Lucknow Pargana Binor Date 12/04/2023\nTehsil Sadar Fasli Year 1429-1434 Status Camputerized Record\nEXTRACT OF LAND RIGHTS REGISTER (=~ ======-41)\nOwner: Ramesh Kumar Order Date: \u201c4-06-2922 - Clean T\nKhata: 104 Khasra: 245/2 Area: 1.05 ha\nFather Suresh Chandra ile Mutated\nKhata 195 Khasra 245-1 Sawer \u2018Sram Sabha Public Lang Area at ke Fatt 2\nbate ota te Bee\nLAND RECORD DETAILS & REVENUE ASSESSMENT\nCategory Agricultural - wrigated Tehsil Circle Circle No 04 (Rurali\nLand Revenue Payable i====i Rs 4850 annum Last Cadastral Survey Year 2021-2022\nes Be oP atu les Eat Loe Koon Srgrature I D3, PR TB\nGovt. oF UP\n= VERIFIED =\nREVENUE DEPT\nRevenue Inspector / Tehsildar\nTehsil Sadar",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 95.0,
+        "box": [
+          291,
+          49,
+          157,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 95.0,
+        "box": [
+          455,
+          49,
+          28,
+          16
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 96.0,
+        "box": [
+          492,
+          49,
+          71,
+          16
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 96.0,
+        "box": [
+          572,
+          49,
+          105,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 96.0,
+        "box": [
+          271,
+          81,
+          54,
+          11
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 97.0,
+        "box": [
+          331,
+          81,
+          19,
+          11
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 93.0,
+        "box": [
+          356,
+          81,
+          79,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 91.0,
+        "box": [
+          428,
+          73,
+          9,
+          29
+        ]
+      },
+      {
+        "text": "=~",
+        "confidence": 2.0,
+        "box": [
+          443,
+          82,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "===72>",
+        "confidence": 7.0,
+        "box": [
+          512,
+          82,
+          51,
+          10
+        ]
+      },
+      {
+        "text": "(2=-222222",
+        "confidence": 8.0,
+        "box": [
+          570,
+          81,
+          95,
+          14
+        ]
+      },
+      {
+        "text": "22222)",
+        "confidence": 35.0,
+        "box": [
+          673,
+          81,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 91.0,
+        "box": [
+          321,
+          108,
+          28,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 91.0,
+        "box": [
+          358,
+          108,
+          4,
+          11
+        ]
+      },
+      {
+        "text": "JAMABANDI",
+        "confidence": 89.0,
+        "box": [
+          367,
+          108,
+          89,
+          11
+        ]
+      },
+      {
+        "text": "-======",
+        "confidence": 51.0,
+        "box": [
+          526,
+          109,
+          72,
+          10
+        ]
+      },
+      {
+        "text": "=====2)",
+        "confidence": 30.0,
+        "box": [
+          606,
+          108,
+          68,
+          14
+        ]
+      },
+      {
+        "text": "State:",
+        "confidence": 96.0,
+        "box": [
+          71,
+          173,
+          33,
+          10
+        ]
+      },
+      {
+        "text": "Uttar",
+        "confidence": 92.0,
+        "box": [
+          115,
+          173,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Pradesh",
+        "confidence": 92.0,
+        "box": [
+          152,
+          173,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Village:",
+        "confidence": 93.0,
+        "box": [
+          400,
+          173,
+          45,
+          13
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 95.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Doc",
+        "confidence": 94.0,
+        "box": [
+          721,
+          173,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "ID:",
+        "confidence": 93.0,
+        "box": [
+          752,
+          173,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "UP-REV-2024-8841",
+        "confidence": 91.0,
+        "box": [
+          775,
+          173,
+          122,
+          10
+        ]
+      },
+      {
+        "text": "District",
+        "confidence": 92.0,
+        "box": [
+          71,
+          203,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 92.0,
+        "box": [
+          122,
+          203,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Pargana",
+        "confidence": 86.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Binor",
+        "confidence": 37.0,
+        "box": [
+          463,
+          203,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 95.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "12/04/2023",
+        "confidence": 40.0,
+        "box": [
+          760,
+          203,
+          69,
+          10
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 67.0,
+        "box": [
+          71,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 96.0,
+        "box": [
+          117,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Fasli",
+        "confidence": 70.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 93.0,
+        "box": [
+          435,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1429-1434",
+        "confidence": 94.0,
+        "box": [
+          474,
+          233,
+          66,
+          10
+        ]
+      },
+      {
+        "text": "Status",
+        "confidence": 91.0,
+        "box": [
+          721,
+          232,
+          32,
+          9
+        ]
+      },
+      {
+        "text": "Camputerized",
+        "confidence": 84.0,
+        "box": [
+          761,
+          232,
+          75,
+          11
+        ]
+      },
+      {
+        "text": "Record",
+        "confidence": 12.0,
+        "box": [
+          841,
+          232,
+          38,
+          9
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 95.0,
+        "box": [
+          51,
+          303,
+          64,
+          10
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          121,
+          303,
+          18,
+          10
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          145,
+          303,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 95.0,
+        "box": [
+          188,
+          303,
+          52,
+          10
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 95.0,
+        "box": [
+          245,
+          303,
+          70,
+          10
+        ]
+      },
+      {
+        "text": "(=~",
+        "confidence": 6.0,
+        "box": [
+          320,
+          303,
+          24,
+          13
+        ]
+      },
+      {
+        "text": "======-41)",
+        "confidence": 18.0,
+        "box": [
+          407,
+          303,
+          97,
+          13
+        ]
+      },
+      {
+        "text": "Owner:",
+        "confidence": 94.0,
+        "box": [
+          321,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Ramesh",
+        "confidence": 96.0,
+        "box": [
+          379,
+          395,
+          61,
+          12
+        ]
+      },
+      {
+        "text": "Kumar",
+        "confidence": 95.0,
+        "box": [
+          446,
+          395,
+          50,
+          12
+        ]
+      },
+      {
+        "text": "Order",
+        "confidence": 74.0,
+        "box": [
+          731,
+          397,
+          30,
+          9
+        ]
+      },
+      {
+        "text": "Date:",
+        "confidence": 82.0,
+        "box": [
+          767,
+          391,
+          28,
+          24
+        ]
+      },
+      {
+        "text": "\u201c4-06-2922",
+        "confidence": 47.0,
+        "box": [
+          803,
+          397,
+          56,
+          9
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 92.0,
+        "box": [
+          863,
+          391,
+          6,
+          24
+        ]
+      },
+      {
+        "text": "Clean",
+        "confidence": 89.0,
+        "box": [
+          871,
+          397,
+          42,
+          9
+        ]
+      },
+      {
+        "text": "T",
+        "confidence": 89.0,
+        "box": [
+          909,
+          391,
+          8,
+          24
+        ]
+      },
+      {
+        "text": "Khata:",
+        "confidence": 92.0,
+        "box": [
+          86,
+          409,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "104",
+        "confidence": 91.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Khasra:",
+        "confidence": 91.0,
+        "box": [
+          181,
+          409,
+          59,
+          12
+        ]
+      },
+      {
+        "text": "245/2",
+        "confidence": 92.0,
+        "box": [
+          248,
+          409,
+          40,
+          12
+        ]
+      },
+      {
+        "text": "Area:",
+        "confidence": 93.0,
+        "box": [
+          580,
+          409,
+          41,
+          12
+        ]
+      },
+      {
+        "text": "1.05",
+        "confidence": 93.0,
+        "box": [
+          629,
+          409,
+          31,
+          12
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 93.0,
+        "box": [
+          666,
+          409,
+          18,
+          12
+        ]
+      },
+      {
+        "text": "Father",
+        "confidence": 92.0,
+        "box": [
+          321,
+          425,
+          38,
+          10
+        ]
+      },
+      {
+        "text": "Suresh",
+        "confidence": 92.0,
+        "box": [
+          371,
+          425,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "Chandra",
+        "confidence": 79.0,
+        "box": [
+          420,
+          425,
+          53,
+          10
+        ]
+      },
+      {
+        "text": "ile",
+        "confidence": 57.0,
+        "box": [
+          731,
+          422,
+          13,
+          9
+        ]
+      },
+      {
+        "text": "Mutated",
+        "confidence": 54.0,
+        "box": [
+          750,
+          422,
+          42,
+          9
+        ]
+      },
+      {
+        "text": "Khata",
+        "confidence": 92.0,
+        "box": [
+          86,
+          488,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "195",
+        "confidence": 57.0,
+        "box": [
+          134,
+          488,
+          19,
+          10
+        ]
+      },
+      {
+        "text": "Khasra",
+        "confidence": 61.0,
+        "box": [
+          181,
+          488,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "245-1",
+        "confidence": 93.0,
+        "box": [
+          234,
+          488,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Sawer",
+        "confidence": 24.0,
+        "box": [
+          321,
+          482,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "\u2018Sram",
+        "confidence": 12.0,
+        "box": [
+          371,
+          482,
+          32,
+          8
+        ]
+      },
+      {
+        "text": "Sabha",
+        "confidence": 93.0,
+        "box": [
+          411,
+          480,
+          39,
+          10
+        ]
+      },
+      {
+        "text": "Public",
+        "confidence": 90.0,
+        "box": [
+          456,
+          480,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lang",
+        "confidence": 24.0,
+        "box": [
+          498,
+          480,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Area",
+        "confidence": 70.0,
+        "box": [
+          581,
+          488,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "at",
+        "confidence": 59.0,
+        "box": [
+          748,
+          489,
+          9,
+          7
+        ]
+      },
+      {
+        "text": "ke",
+        "confidence": 40.0,
+        "box": [
+          764,
+          488,
+          14,
+          8
+        ]
+      },
+      {
+        "text": "Fatt",
+        "confidence": 63.0,
+        "box": [
+          800,
+          487,
+          19,
+          9
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 31.0,
+        "box": [
+          835,
+          491,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "bate",
+        "confidence": 41.0,
+        "box": [
+          321,
+          506,
+          29,
+          7
+        ]
+      },
+      {
+        "text": "ota",
+        "confidence": 28.0,
+        "box": [
+          362,
+          494,
+          20,
+          29
+        ]
+      },
+      {
+        "text": "te",
+        "confidence": 47.0,
+        "box": [
+          404,
+          494,
+          25,
+          29
+        ]
+      },
+      {
+        "text": "Bee",
+        "confidence": 39.0,
+        "box": [
+          461,
+          510,
+          5,
+          1
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          71,
+          588,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RECORD",
+        "confidence": 92.0,
+        "box": [
+          114,
+          588,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 93.0,
+        "box": [
+          178,
+          588,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 93.0,
+        "box": [
+          242,
+          588,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 96.0,
+        "box": [
+          256,
+          588,
+          65,
+          10
+        ]
+      },
+      {
+        "text": "ASSESSMENT",
+        "confidence": 96.0,
+        "box": [
+          325,
+          588,
+          94,
+          10
+        ]
+      },
+      {
+        "text": "Category",
+        "confidence": 92.0,
+        "box": [
+          71,
+          623,
+          56,
+          13
+        ]
+      },
+      {
+        "text": "Agricultural",
+        "confidence": 82.0,
+        "box": [
+          136,
+          623,
+          136,
+          13
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 85.0,
+        "box": [
+          212,
+          614,
+          5,
+          29
+        ]
+      },
+      {
+        "text": "wrigated",
+        "confidence": 16.0,
+        "box": [
+          221,
+          623,
+          51,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 95.0,
+        "box": [
+          521,
+          623,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 96.0,
+        "box": [
+          563,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 96.0,
+        "box": [
+          607,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "No",
+        "confidence": 84.0,
+        "box": [
+          647,
+          623,
+          16,
+          10
+        ]
+      },
+      {
+        "text": "04",
+        "confidence": 84.0,
+        "box": [
+          673,
+          623,
+          14,
+          10
+        ]
+      },
+      {
+        "text": "(Rurali",
+        "confidence": 30.0,
+        "box": [
+          693,
+          623,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Land",
+        "confidence": 95.0,
+        "box": [
+          71,
+          653,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          107,
+          653,
+          55,
+          10
+        ]
+      },
+      {
+        "text": "Payable",
+        "confidence": 66.0,
+        "box": [
+          168,
+          653,
+          49,
+          11
+        ]
+      },
+      {
+        "text": "i====i",
+        "confidence": 3.0,
+        "box": [
+          229,
+          653,
+          46,
+          10
+        ]
+      },
+      {
+        "text": "Rs",
+        "confidence": 95.0,
+        "box": [
+          285,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "4850",
+        "confidence": 73.0,
+        "box": [
+          309,
+          653,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "annum",
+        "confidence": 86.0,
+        "box": [
+          358,
+          655,
+          42,
+          8
+        ]
+      },
+      {
+        "text": "Last",
+        "confidence": 91.0,
+        "box": [
+          521,
+          653,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "Cadastral",
+        "confidence": 91.0,
+        "box": [
+          552,
+          653,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "Survey",
+        "confidence": 94.0,
+        "box": [
+          617,
+          653,
+          42,
+          11
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 94.0,
+        "box": [
+          665,
+          653,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "2021-2022",
+        "confidence": 91.0,
+        "box": [
+          703,
+          653,
+          67,
+          10
+        ]
+      },
+      {
+        "text": "es",
+        "confidence": 46.0,
+        "box": [
+          79,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Be",
+        "confidence": 2.0,
+        "box": [
+          116,
+          682,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "oP",
+        "confidence": 46.0,
+        "box": [
+          149,
+          685,
+          4,
+          4
+        ]
+      },
+      {
+        "text": "atu",
+        "confidence": 21.0,
+        "box": [
+          158,
+          683,
+          29,
+          8
+        ]
+      },
+      {
+        "text": "les",
+        "confidence": 28.0,
+        "box": [
+          249,
+          684,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "Eat",
+        "confidence": 36.0,
+        "box": [
+          271,
+          683,
+          43,
+          8
+        ]
+      },
+      {
+        "text": "Loe",
+        "confidence": 58.0,
+        "box": [
+          305,
+          671,
+          15,
+          30
+        ]
+      },
+      {
+        "text": "Koon",
+        "confidence": 38.0,
+        "box": [
+          325,
+          683,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "Srgrature",
+        "confidence": 8.0,
+        "box": [
+          561,
+          682,
+          61,
+          9
+        ]
+      },
+      {
+        "text": "I",
+        "confidence": 49.0,
+        "box": [
+          616,
+          672,
+          8,
+          29
+        ]
+      },
+      {
+        "text": "D3,",
+        "confidence": 29.0,
+        "box": [
+          633,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "PR",
+        "confidence": 9.0,
+        "box": [
+          692,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "TB",
+        "confidence": 34.0,
+        "box": [
+          727,
+          682,
+          19,
+          8
+        ]
+      },
+      {
+        "text": "Govt.",
+        "confidence": 62.0,
+        "box": [
+          786,
+          1095,
+          28,
+          7
+        ]
+      },
+      {
+        "text": "oF",
+        "confidence": 87.0,
+        "box": [
+          821,
+          1095,
+          12,
+          7
+        ]
+      },
+      {
+        "text": "UP",
+        "confidence": 79.0,
+        "box": [
+          838,
+          1095,
+          15,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 51.0,
+        "box": [
+          794,
+          1110,
+          4,
+          7
+        ]
+      },
+      {
+        "text": "VERIFIED",
+        "confidence": 84.0,
+        "box": [
+          803,
+          1110,
+          56,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 54.0,
+        "box": [
+          855,
+          1098,
+          8,
+          29
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 90.0,
+        "box": [
+          789,
+          1125,
+          47,
+          7
+        ]
+      },
+      {
+        "text": "DEPT",
+        "confidence": 80.0,
+        "box": [
+          841,
+          1125,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          751,
+          1243,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "Inspector",
+        "confidence": 68.0,
+        "box": [
+          815,
+          1243,
+          140,
+          13
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 68.0,
+        "box": [
+          882,
+          1234,
+          6,
+          29
+        ]
+      },
+      {
+        "text": "Tehsildar",
+        "confidence": 83.0,
+        "box": [
+          894,
+          1243,
+          61,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 90.0,
+        "box": [
+          771,
+          1262,
+          31,
+          9
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 92.0,
+        "box": [
+          807,
+          1262,
+          30,
+          9
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_1_clean_record.png",
+    "annotated_sample": "annotated_demo_1_clean_record.png"
+  },
+  "area_mismatch": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_2_area_mismatch.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 71.4,
+    "word_count": 134,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE / ====2> 22222 (22-222222 22222)\nROR / JAMABANDI - 222222 222222)\nState: Uttar Pradesh Village: Rampur Doc ID: UP-REV-2024-8841\nDistrict Lucknow Pargana Binor Date\nTehsil Sadar Fasli Year 1429-1434 Status Computerized Resor\nEXTRACT OF LAND RIGHTS REGISTER (======= ======- 41)\nOwner: Ramesh Kumar \u2018Survey Rectification Requested\nKhata: 104 Khasra: 245/2 Area: 1.20 ha\nFather Suresh Chandra Clear Title\nKhata 105 Khasra 245-1 \u2018rare Sabha Public Lang Area at &\nbale sate ee\nLAND RECORD DETAILS & REVENUE ASSESSMENT\nCategory Agricultural - Tehsil Circle Circle\nLand Revenue Payable \u201822221 Rs 4850 annum Last Cadastral Survey Year 2021-2022\nses Be 2 Pte ater 2 gs ate Le Kn Sigeatwe > DS, REN Pals +\novr. oF UP\n1 VERIFIED =\nREVENUE DEFT\nRevenue Inspector / Tehsildar\nTehsil Sadar Lucknow",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 96.0,
+        "box": [
+          291,
+          49,
+          157,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          455,
+          49,
+          28,
+          16
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 95.0,
+        "box": [
+          492,
+          49,
+          71,
+          16
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 96.0,
+        "box": [
+          572,
+          49,
+          105,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 96.0,
+        "box": [
+          271,
+          81,
+          54,
+          11
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          331,
+          81,
+          19,
+          11
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 90.0,
+        "box": [
+          356,
+          81,
+          79,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 79.0,
+        "box": [
+          429,
+          70,
+          9,
+          32
+        ]
+      },
+      {
+        "text": "====2>",
+        "confidence": 10.0,
+        "box": [
+          442,
+          82,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "22222",
+        "confidence": 63.0,
+        "box": [
+          512,
+          82,
+          51,
+          10
+        ]
+      },
+      {
+        "text": "(22-222222",
+        "confidence": 63.0,
+        "box": [
+          570,
+          81,
+          95,
+          14
+        ]
+      },
+      {
+        "text": "22222)",
+        "confidence": 64.0,
+        "box": [
+          673,
+          81,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 83.0,
+        "box": [
+          321,
+          108,
+          28,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 71.0,
+        "box": [
+          358,
+          108,
+          4,
+          11
+        ]
+      },
+      {
+        "text": "JAMABANDI",
+        "confidence": 71.0,
+        "box": [
+          367,
+          108,
+          89,
+          11
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 76.0,
+        "box": [
+          526,
+          114,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "222222",
+        "confidence": 48.0,
+        "box": [
+          536,
+          109,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "222222)",
+        "confidence": 62.0,
+        "box": [
+          606,
+          108,
+          68,
+          14
+        ]
+      },
+      {
+        "text": "State:",
+        "confidence": 95.0,
+        "box": [
+          71,
+          173,
+          33,
+          10
+        ]
+      },
+      {
+        "text": "Uttar",
+        "confidence": 96.0,
+        "box": [
+          115,
+          173,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Pradesh",
+        "confidence": 96.0,
+        "box": [
+          152,
+          173,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Village:",
+        "confidence": 95.0,
+        "box": [
+          400,
+          173,
+          45,
+          13
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 96.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Doc",
+        "confidence": 96.0,
+        "box": [
+          721,
+          173,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "ID:",
+        "confidence": 93.0,
+        "box": [
+          752,
+          173,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "UP-REV-2024-8841",
+        "confidence": 83.0,
+        "box": [
+          775,
+          173,
+          122,
+          10
+        ]
+      },
+      {
+        "text": "District",
+        "confidence": 82.0,
+        "box": [
+          71,
+          203,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 90.0,
+        "box": [
+          122,
+          203,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Pargana",
+        "confidence": 88.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Binor",
+        "confidence": 88.0,
+        "box": [
+          463,
+          203,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 89.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 30.0,
+        "box": [
+          71,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 91.0,
+        "box": [
+          117,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Fasli",
+        "confidence": 75.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 95.0,
+        "box": [
+          435,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1429-1434",
+        "confidence": 93.0,
+        "box": [
+          474,
+          233,
+          66,
+          10
+        ]
+      },
+      {
+        "text": "Status",
+        "confidence": 90.0,
+        "box": [
+          721,
+          232,
+          32,
+          9
+        ]
+      },
+      {
+        "text": "Computerized",
+        "confidence": 91.0,
+        "box": [
+          761,
+          232,
+          75,
+          11
+        ]
+      },
+      {
+        "text": "Resor",
+        "confidence": 37.0,
+        "box": [
+          841,
+          232,
+          38,
+          9
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 96.0,
+        "box": [
+          51,
+          303,
+          64,
+          10
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 95.0,
+        "box": [
+          121,
+          303,
+          18,
+          10
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 95.0,
+        "box": [
+          145,
+          303,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 95.0,
+        "box": [
+          188,
+          303,
+          52,
+          10
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 93.0,
+        "box": [
+          245,
+          303,
+          70,
+          10
+        ]
+      },
+      {
+        "text": "(=======",
+        "confidence": 49.0,
+        "box": [
+          320,
+          303,
+          79,
+          13
+        ]
+      },
+      {
+        "text": "======-",
+        "confidence": 11.0,
+        "box": [
+          407,
+          303,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "41)",
+        "confidence": 21.0,
+        "box": [
+          476,
+          303,
+          28,
+          13
+        ]
+      },
+      {
+        "text": "Owner:",
+        "confidence": 94.0,
+        "box": [
+          321,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Ramesh",
+        "confidence": 96.0,
+        "box": [
+          379,
+          395,
+          61,
+          12
+        ]
+      },
+      {
+        "text": "Kumar",
+        "confidence": 96.0,
+        "box": [
+          446,
+          395,
+          50,
+          12
+        ]
+      },
+      {
+        "text": "\u2018Survey",
+        "confidence": 74.0,
+        "box": [
+          731,
+          397,
+          35,
+          11
+        ]
+      },
+      {
+        "text": "Rectification",
+        "confidence": 96.0,
+        "box": [
+          772,
+          397,
+          65,
+          9
+        ]
+      },
+      {
+        "text": "Requested",
+        "confidence": 96.0,
+        "box": [
+          842,
+          397,
+          58,
+          11
+        ]
+      },
+      {
+        "text": "Khata:",
+        "confidence": 92.0,
+        "box": [
+          86,
+          409,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "104",
+        "confidence": 88.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Khasra:",
+        "confidence": 90.0,
+        "box": [
+          181,
+          409,
+          59,
+          12
+        ]
+      },
+      {
+        "text": "245/2",
+        "confidence": 92.0,
+        "box": [
+          248,
+          409,
+          40,
+          12
+        ]
+      },
+      {
+        "text": "Area:",
+        "confidence": 94.0,
+        "box": [
+          580,
+          409,
+          41,
+          12
+        ]
+      },
+      {
+        "text": "1.20",
+        "confidence": 76.0,
+        "box": [
+          629,
+          409,
+          31,
+          12
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 76.0,
+        "box": [
+          666,
+          409,
+          18,
+          12
+        ]
+      },
+      {
+        "text": "Father",
+        "confidence": 94.0,
+        "box": [
+          321,
+          425,
+          38,
+          10
+        ]
+      },
+      {
+        "text": "Suresh",
+        "confidence": 94.0,
+        "box": [
+          371,
+          425,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "Chandra",
+        "confidence": 92.0,
+        "box": [
+          420,
+          425,
+          53,
+          10
+        ]
+      },
+      {
+        "text": "Clear",
+        "confidence": 92.0,
+        "box": [
+          731,
+          423,
+          27,
+          8
+        ]
+      },
+      {
+        "text": "Title",
+        "confidence": 92.0,
+        "box": [
+          764,
+          422,
+          21,
+          9
+        ]
+      },
+      {
+        "text": "Khata",
+        "confidence": 89.0,
+        "box": [
+          86,
+          488,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "105",
+        "confidence": 59.0,
+        "box": [
+          134,
+          488,
+          19,
+          10
+        ]
+      },
+      {
+        "text": "Khasra",
+        "confidence": 82.0,
+        "box": [
+          181,
+          488,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "245-1",
+        "confidence": 93.0,
+        "box": [
+          234,
+          488,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "\u2018rare",
+        "confidence": 47.0,
+        "box": [
+          371,
+          482,
+          32,
+          8
+        ]
+      },
+      {
+        "text": "Sabha",
+        "confidence": 88.0,
+        "box": [
+          411,
+          480,
+          39,
+          10
+        ]
+      },
+      {
+        "text": "Public",
+        "confidence": 86.0,
+        "box": [
+          456,
+          480,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lang",
+        "confidence": 53.0,
+        "box": [
+          498,
+          480,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Area",
+        "confidence": 83.0,
+        "box": [
+          581,
+          488,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "at",
+        "confidence": 1.0,
+        "box": [
+          748,
+          489,
+          9,
+          7
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 40.0,
+        "box": [
+          835,
+          491,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "bale",
+        "confidence": 42.0,
+        "box": [
+          321,
+          506,
+          29,
+          7
+        ]
+      },
+      {
+        "text": "sate",
+        "confidence": 48.0,
+        "box": [
+          370,
+          506,
+          50,
+          7
+        ]
+      },
+      {
+        "text": "ee",
+        "confidence": 25.0,
+        "box": [
+          461,
+          510,
+          5,
+          1
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          71,
+          588,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RECORD",
+        "confidence": 66.0,
+        "box": [
+          114,
+          588,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 93.0,
+        "box": [
+          178,
+          588,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 93.0,
+        "box": [
+          242,
+          588,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 96.0,
+        "box": [
+          256,
+          588,
+          65,
+          10
+        ]
+      },
+      {
+        "text": "ASSESSMENT",
+        "confidence": 91.0,
+        "box": [
+          325,
+          588,
+          94,
+          10
+        ]
+      },
+      {
+        "text": "Category",
+        "confidence": 91.0,
+        "box": [
+          71,
+          623,
+          56,
+          13
+        ]
+      },
+      {
+        "text": "Agricultural",
+        "confidence": 11.0,
+        "box": [
+          136,
+          623,
+          136,
+          13
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 32.0,
+        "box": [
+          211,
+          611,
+          6,
+          32
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 85.0,
+        "box": [
+          521,
+          623,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 85.0,
+        "box": [
+          563,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 83.0,
+        "box": [
+          607,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Land",
+        "confidence": 96.0,
+        "box": [
+          71,
+          653,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 92.0,
+        "box": [
+          107,
+          653,
+          55,
+          10
+        ]
+      },
+      {
+        "text": "Payable",
+        "confidence": 75.0,
+        "box": [
+          168,
+          653,
+          49,
+          11
+        ]
+      },
+      {
+        "text": "\u201822221",
+        "confidence": 36.0,
+        "box": [
+          229,
+          653,
+          46,
+          10
+        ]
+      },
+      {
+        "text": "Rs",
+        "confidence": 91.0,
+        "box": [
+          285,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "4850",
+        "confidence": 37.0,
+        "box": [
+          309,
+          653,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "annum",
+        "confidence": 32.0,
+        "box": [
+          358,
+          655,
+          42,
+          8
+        ]
+      },
+      {
+        "text": "Last",
+        "confidence": 96.0,
+        "box": [
+          521,
+          653,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "Cadastral",
+        "confidence": 96.0,
+        "box": [
+          552,
+          653,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "Survey",
+        "confidence": 93.0,
+        "box": [
+          617,
+          653,
+          42,
+          11
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 94.0,
+        "box": [
+          665,
+          653,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "2021-2022",
+        "confidence": 94.0,
+        "box": [
+          703,
+          653,
+          67,
+          10
+        ]
+      },
+      {
+        "text": "ses",
+        "confidence": 27.0,
+        "box": [
+          79,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Be",
+        "confidence": 55.0,
+        "box": [
+          116,
+          682,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 21.0,
+        "box": [
+          135,
+          668,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "Pte",
+        "confidence": 6.0,
+        "box": [
+          149,
+          683,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "ater",
+        "confidence": 34.0,
+        "box": [
+          202,
+          683,
+          25,
+          8
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 17.0,
+        "box": [
+          234,
+          668,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "gs",
+        "confidence": 58.0,
+        "box": [
+          249,
+          684,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "ate",
+        "confidence": 12.0,
+        "box": [
+          271,
+          683,
+          43,
+          8
+        ]
+      },
+      {
+        "text": "Le",
+        "confidence": 42.0,
+        "box": [
+          306,
+          668,
+          14,
+          33
+        ]
+      },
+      {
+        "text": "Kn",
+        "confidence": 27.0,
+        "box": [
+          325,
+          683,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "Sigeatwe",
+        "confidence": 2.0,
+        "box": [
+          561,
+          682,
+          61,
+          9
+        ]
+      },
+      {
+        "text": ">",
+        "confidence": 18.0,
+        "box": [
+          618,
+          668,
+          9,
+          33
+        ]
+      },
+      {
+        "text": "DS,",
+        "confidence": 61.0,
+        "box": [
+          633,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "REN",
+        "confidence": 19.0,
+        "box": [
+          663,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "Pals",
+        "confidence": 35.0,
+        "box": [
+          692,
+          682,
+          26,
+          9
+        ]
+      },
+      {
+        "text": "+",
+        "confidence": 36.0,
+        "box": [
+          745,
+          685,
+          1,
+          4
+        ]
+      },
+      {
+        "text": "ovr.",
+        "confidence": 45.0,
+        "box": [
+          786,
+          1095,
+          28,
+          7
+        ]
+      },
+      {
+        "text": "oF",
+        "confidence": 88.0,
+        "box": [
+          821,
+          1095,
+          12,
+          7
+        ]
+      },
+      {
+        "text": "UP",
+        "confidence": 85.0,
+        "box": [
+          838,
+          1095,
+          15,
+          7
+        ]
+      },
+      {
+        "text": "1",
+        "confidence": 55.0,
+        "box": [
+          790,
+          1095,
+          6,
+          32
+        ]
+      },
+      {
+        "text": "VERIFIED",
+        "confidence": 55.0,
+        "box": [
+          794,
+          1110,
+          65,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 85.0,
+        "box": [
+          856,
+          1095,
+          6,
+          32
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 78.0,
+        "box": [
+          789,
+          1125,
+          47,
+          7
+        ]
+      },
+      {
+        "text": "DEFT",
+        "confidence": 51.0,
+        "box": [
+          841,
+          1125,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          751,
+          1243,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "Inspector",
+        "confidence": 81.0,
+        "box": [
+          815,
+          1243,
+          140,
+          13
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 81.0,
+        "box": [
+          883,
+          1231,
+          6,
+          32
+        ]
+      },
+      {
+        "text": "Tehsildar",
+        "confidence": 89.0,
+        "box": [
+          893,
+          1243,
+          62,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 57.0,
+        "box": [
+          771,
+          1262,
+          31,
+          9
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 75.0,
+        "box": [
+          807,
+          1262,
+          30,
+          9
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 58.0,
+        "box": [
+          846,
+          1262,
+          46,
+          9
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_2_area_mismatch.png",
+    "annotated_sample": "annotated_demo_2_area_mismatch.png"
+  },
+  "owner_variation": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_3_owner_variation.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 73.7,
+    "word_count": 137,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE / ====== ===27 (22-222222 22222)\nROR / JAMABANDI (====7 - ====== ===222)\nState: Uttar Pradesh Village: Rampur Doc ID: UP-REV-2024-8841\nDistrict Lucknow Pargana Binor Date\nTehsit Sadar Fasli Year 1429-1434 Status Computerized Record\nEXTRACT OF LAND RIGHTS REGISTER (======= =====7-41)\nOwner: Ramesh Kumar Succession Entry Pending verific\nKhata: 112 Khasra: 246/1 Area: 0.88 ha\nFather Mahesh Chandra ation\nKhata 105 Khasra 245-1 \u2018rare Sabha Public Lang Area at &\nbale sate ee\nLAND RECORD DETAILS & REVENUE ASSESSMENT\nCategory Agricultural - Double Crop Tehsil Circle Circle No 04 (Rurals\nLand Revenue Payable (227) Rs 4850: annum Last Cadastral Survey Year 2021-2022\nses Be 2 Pte ater 2 gs ate Le Kn Dita Srgrature I> DREW Peta\nGovt. oF UF\n1 VERIFIED =\nREVENUE DEPT\nRevenue Inspector / Tehsildar\nTehsil Sadar",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 96.0,
+        "box": [
+          291,
+          49,
+          157,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          455,
+          49,
+          28,
+          16
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 95.0,
+        "box": [
+          492,
+          49,
+          71,
+          16
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 96.0,
+        "box": [
+          572,
+          49,
+          105,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 95.0,
+        "box": [
+          271,
+          81,
+          54,
+          11
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          331,
+          81,
+          19,
+          11
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 93.0,
+        "box": [
+          356,
+          81,
+          79,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 85.0,
+        "box": [
+          429,
+          69,
+          9,
+          33
+        ]
+      },
+      {
+        "text": "======",
+        "confidence": 18.0,
+        "box": [
+          442,
+          82,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "===27",
+        "confidence": 24.0,
+        "box": [
+          512,
+          82,
+          51,
+          10
+        ]
+      },
+      {
+        "text": "(22-222222",
+        "confidence": 40.0,
+        "box": [
+          570,
+          81,
+          95,
+          14
+        ]
+      },
+      {
+        "text": "22222)",
+        "confidence": 55.0,
+        "box": [
+          673,
+          81,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 78.0,
+        "box": [
+          321,
+          96,
+          27,
+          33
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 78.0,
+        "box": [
+          355,
+          108,
+          7,
+          11
+        ]
+      },
+      {
+        "text": "JAMABANDI",
+        "confidence": 86.0,
+        "box": [
+          367,
+          108,
+          89,
+          11
+        ]
+      },
+      {
+        "text": "(====7",
+        "confidence": 46.0,
+        "box": [
+          462,
+          108,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 30.0,
+        "box": [
+          526,
+          114,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "======",
+        "confidence": 30.0,
+        "box": [
+          536,
+          109,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "===222)",
+        "confidence": 34.0,
+        "box": [
+          606,
+          108,
+          68,
+          14
+        ]
+      },
+      {
+        "text": "State:",
+        "confidence": 96.0,
+        "box": [
+          71,
+          173,
+          33,
+          10
+        ]
+      },
+      {
+        "text": "Uttar",
+        "confidence": 96.0,
+        "box": [
+          115,
+          173,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Pradesh",
+        "confidence": 96.0,
+        "box": [
+          152,
+          173,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Village:",
+        "confidence": 96.0,
+        "box": [
+          400,
+          173,
+          45,
+          13
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 96.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Doc",
+        "confidence": 95.0,
+        "box": [
+          721,
+          173,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "ID:",
+        "confidence": 93.0,
+        "box": [
+          752,
+          173,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "UP-REV-2024-8841",
+        "confidence": 65.0,
+        "box": [
+          775,
+          173,
+          122,
+          10
+        ]
+      },
+      {
+        "text": "District",
+        "confidence": 92.0,
+        "box": [
+          71,
+          203,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 92.0,
+        "box": [
+          122,
+          203,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Pargana",
+        "confidence": 84.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Binor",
+        "confidence": 45.0,
+        "box": [
+          463,
+          203,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 89.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Tehsit",
+        "confidence": 80.0,
+        "box": [
+          71,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 96.0,
+        "box": [
+          117,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Fasli",
+        "confidence": 82.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 93.0,
+        "box": [
+          435,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1429-1434",
+        "confidence": 91.0,
+        "box": [
+          474,
+          233,
+          66,
+          10
+        ]
+      },
+      {
+        "text": "Status",
+        "confidence": 89.0,
+        "box": [
+          721,
+          232,
+          32,
+          9
+        ]
+      },
+      {
+        "text": "Computerized",
+        "confidence": 90.0,
+        "box": [
+          761,
+          232,
+          75,
+          11
+        ]
+      },
+      {
+        "text": "Record",
+        "confidence": 47.0,
+        "box": [
+          841,
+          232,
+          38,
+          9
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 95.0,
+        "box": [
+          51,
+          303,
+          64,
+          10
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          121,
+          303,
+          18,
+          10
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          145,
+          303,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 96.0,
+        "box": [
+          188,
+          303,
+          52,
+          10
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 93.0,
+        "box": [
+          245,
+          303,
+          70,
+          10
+        ]
+      },
+      {
+        "text": "(=======",
+        "confidence": 26.0,
+        "box": [
+          320,
+          303,
+          79,
+          13
+        ]
+      },
+      {
+        "text": "=====7-41)",
+        "confidence": 52.0,
+        "box": [
+          407,
+          303,
+          97,
+          13
+        ]
+      },
+      {
+        "text": "Owner:",
+        "confidence": 94.0,
+        "box": [
+          321,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Ramesh",
+        "confidence": 96.0,
+        "box": [
+          379,
+          395,
+          61,
+          12
+        ]
+      },
+      {
+        "text": "Kumar",
+        "confidence": 96.0,
+        "box": [
+          446,
+          395,
+          50,
+          12
+        ]
+      },
+      {
+        "text": "Succession",
+        "confidence": 91.0,
+        "box": [
+          731,
+          397,
+          61,
+          9
+        ]
+      },
+      {
+        "text": "Entry",
+        "confidence": 91.0,
+        "box": [
+          797,
+          397,
+          25,
+          11
+        ]
+      },
+      {
+        "text": "Pending",
+        "confidence": 93.0,
+        "box": [
+          828,
+          397,
+          44,
+          11
+        ]
+      },
+      {
+        "text": "verific",
+        "confidence": 93.0,
+        "box": [
+          878,
+          397,
+          30,
+          9
+        ]
+      },
+      {
+        "text": "Khata:",
+        "confidence": 92.0,
+        "box": [
+          86,
+          409,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "112",
+        "confidence": 86.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Khasra:",
+        "confidence": 86.0,
+        "box": [
+          181,
+          409,
+          59,
+          12
+        ]
+      },
+      {
+        "text": "246/1",
+        "confidence": 91.0,
+        "box": [
+          248,
+          409,
+          38,
+          12
+        ]
+      },
+      {
+        "text": "Area:",
+        "confidence": 96.0,
+        "box": [
+          580,
+          409,
+          41,
+          12
+        ]
+      },
+      {
+        "text": "0.88",
+        "confidence": 96.0,
+        "box": [
+          629,
+          409,
+          31,
+          12
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 96.0,
+        "box": [
+          666,
+          409,
+          18,
+          12
+        ]
+      },
+      {
+        "text": "Father",
+        "confidence": 95.0,
+        "box": [
+          321,
+          425,
+          38,
+          10
+        ]
+      },
+      {
+        "text": "Mahesh",
+        "confidence": 95.0,
+        "box": [
+          371,
+          425,
+          49,
+          10
+        ]
+      },
+      {
+        "text": "Chandra",
+        "confidence": 84.0,
+        "box": [
+          426,
+          425,
+          53,
+          10
+        ]
+      },
+      {
+        "text": "ation",
+        "confidence": 28.0,
+        "box": [
+          731,
+          422,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Khata",
+        "confidence": 89.0,
+        "box": [
+          86,
+          488,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "105",
+        "confidence": 59.0,
+        "box": [
+          134,
+          488,
+          19,
+          10
+        ]
+      },
+      {
+        "text": "Khasra",
+        "confidence": 82.0,
+        "box": [
+          181,
+          488,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "245-1",
+        "confidence": 93.0,
+        "box": [
+          234,
+          488,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "\u2018rare",
+        "confidence": 47.0,
+        "box": [
+          371,
+          482,
+          32,
+          8
+        ]
+      },
+      {
+        "text": "Sabha",
+        "confidence": 88.0,
+        "box": [
+          411,
+          480,
+          39,
+          10
+        ]
+      },
+      {
+        "text": "Public",
+        "confidence": 86.0,
+        "box": [
+          456,
+          480,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lang",
+        "confidence": 53.0,
+        "box": [
+          498,
+          480,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Area",
+        "confidence": 83.0,
+        "box": [
+          581,
+          488,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "at",
+        "confidence": 1.0,
+        "box": [
+          748,
+          489,
+          9,
+          7
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 40.0,
+        "box": [
+          835,
+          491,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "bale",
+        "confidence": 42.0,
+        "box": [
+          321,
+          506,
+          29,
+          7
+        ]
+      },
+      {
+        "text": "sate",
+        "confidence": 48.0,
+        "box": [
+          370,
+          506,
+          50,
+          7
+        ]
+      },
+      {
+        "text": "ee",
+        "confidence": 25.0,
+        "box": [
+          461,
+          510,
+          5,
+          1
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          71,
+          588,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RECORD",
+        "confidence": 94.0,
+        "box": [
+          114,
+          588,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 93.0,
+        "box": [
+          178,
+          588,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 93.0,
+        "box": [
+          242,
+          588,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 96.0,
+        "box": [
+          256,
+          588,
+          65,
+          10
+        ]
+      },
+      {
+        "text": "ASSESSMENT",
+        "confidence": 92.0,
+        "box": [
+          325,
+          588,
+          94,
+          10
+        ]
+      },
+      {
+        "text": "Category",
+        "confidence": 90.0,
+        "box": [
+          71,
+          623,
+          56,
+          13
+        ]
+      },
+      {
+        "text": "Agricultural",
+        "confidence": 80.0,
+        "box": [
+          136,
+          623,
+          128,
+          13
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 92.0,
+        "box": [
+          213,
+          611,
+          6,
+          32
+        ]
+      },
+      {
+        "text": "Double",
+        "confidence": 96.0,
+        "box": [
+          224,
+          623,
+          40,
+          13
+        ]
+      },
+      {
+        "text": "Crop",
+        "confidence": 88.0,
+        "box": [
+          270,
+          623,
+          29,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 93.0,
+        "box": [
+          521,
+          623,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 86.0,
+        "box": [
+          563,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 86.0,
+        "box": [
+          607,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "No",
+        "confidence": 72.0,
+        "box": [
+          647,
+          623,
+          16,
+          10
+        ]
+      },
+      {
+        "text": "04",
+        "confidence": 72.0,
+        "box": [
+          673,
+          623,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "(Rurals",
+        "confidence": 23.0,
+        "box": [
+          693,
+          623,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Land",
+        "confidence": 96.0,
+        "box": [
+          71,
+          653,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 92.0,
+        "box": [
+          107,
+          653,
+          55,
+          10
+        ]
+      },
+      {
+        "text": "Payable",
+        "confidence": 90.0,
+        "box": [
+          168,
+          653,
+          49,
+          11
+        ]
+      },
+      {
+        "text": "(227)",
+        "confidence": 60.0,
+        "box": [
+          229,
+          653,
+          46,
+          10
+        ]
+      },
+      {
+        "text": "Rs",
+        "confidence": 78.0,
+        "box": [
+          285,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "4850:",
+        "confidence": 72.0,
+        "box": [
+          309,
+          653,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "annum",
+        "confidence": 93.0,
+        "box": [
+          358,
+          655,
+          42,
+          8
+        ]
+      },
+      {
+        "text": "Last",
+        "confidence": 96.0,
+        "box": [
+          521,
+          653,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "Cadastral",
+        "confidence": 96.0,
+        "box": [
+          552,
+          653,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "Survey",
+        "confidence": 93.0,
+        "box": [
+          617,
+          653,
+          42,
+          11
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 94.0,
+        "box": [
+          665,
+          653,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "2021-2022",
+        "confidence": 94.0,
+        "box": [
+          703,
+          653,
+          67,
+          10
+        ]
+      },
+      {
+        "text": "ses",
+        "confidence": 27.0,
+        "box": [
+          79,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Be",
+        "confidence": 55.0,
+        "box": [
+          116,
+          682,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 21.0,
+        "box": [
+          135,
+          668,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "Pte",
+        "confidence": 6.0,
+        "box": [
+          149,
+          683,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "ater",
+        "confidence": 34.0,
+        "box": [
+          202,
+          683,
+          25,
+          8
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 17.0,
+        "box": [
+          234,
+          668,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "gs",
+        "confidence": 58.0,
+        "box": [
+          249,
+          684,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "ate",
+        "confidence": 12.0,
+        "box": [
+          271,
+          683,
+          43,
+          8
+        ]
+      },
+      {
+        "text": "Le",
+        "confidence": 42.0,
+        "box": [
+          306,
+          668,
+          14,
+          33
+        ]
+      },
+      {
+        "text": "Kn",
+        "confidence": 27.0,
+        "box": [
+          325,
+          683,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "Dita",
+        "confidence": 43.0,
+        "box": [
+          521,
+          682,
+          30,
+          9
+        ]
+      },
+      {
+        "text": "Srgrature",
+        "confidence": 15.0,
+        "box": [
+          561,
+          682,
+          61,
+          9
+        ]
+      },
+      {
+        "text": "I>",
+        "confidence": 76.0,
+        "box": [
+          615,
+          668,
+          12,
+          32
+        ]
+      },
+      {
+        "text": "DREW",
+        "confidence": 14.0,
+        "box": [
+          633,
+          682,
+          45,
+          9
+        ]
+      },
+      {
+        "text": "Peta",
+        "confidence": 19.0,
+        "box": [
+          692,
+          682,
+          54,
+          9
+        ]
+      },
+      {
+        "text": "Govt.",
+        "confidence": 57.0,
+        "box": [
+          786,
+          1095,
+          28,
+          7
+        ]
+      },
+      {
+        "text": "oF",
+        "confidence": 75.0,
+        "box": [
+          821,
+          1095,
+          12,
+          7
+        ]
+      },
+      {
+        "text": "UF",
+        "confidence": 67.0,
+        "box": [
+          848,
+          1095,
+          5,
+          7
+        ]
+      },
+      {
+        "text": "1",
+        "confidence": 56.0,
+        "box": [
+          790,
+          1094,
+          6,
+          33
+        ]
+      },
+      {
+        "text": "VERIFIED",
+        "confidence": 63.0,
+        "box": [
+          794,
+          1110,
+          65,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 95.0,
+        "box": [
+          856,
+          1094,
+          6,
+          33
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 71.0,
+        "box": [
+          789,
+          1125,
+          47,
+          7
+        ]
+      },
+      {
+        "text": "DEPT",
+        "confidence": 74.0,
+        "box": [
+          841,
+          1125,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          751,
+          1243,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "Inspector",
+        "confidence": 92.0,
+        "box": [
+          815,
+          1243,
+          140,
+          13
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 80.0,
+        "box": [
+          884,
+          1230,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "Tehsildar",
+        "confidence": 80.0,
+        "box": [
+          892,
+          1243,
+          63,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 67.0,
+        "box": [
+          771,
+          1262,
+          31,
+          9
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 93.0,
+        "box": [
+          807,
+          1262,
+          30,
+          9
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_3_owner_variation.png",
+    "annotated_sample": "annotated_demo_3_owner_variation.png"
+  },
+  "khasra_mismatch": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_4_khasra_mismatch.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 71.9,
+    "word_count": 136,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE / 22222 (22-222222 22222)\nROR / JAMABANDI - 222222 222222)\nState: Uttar Pradesh Village: Rampur Doc ID: UP-REV-2024-8841\nDistrict Lucknow Pargana Bijnor Date 12/04/2023\nTehsil\u2019 Sadar Fasli Year 1429-1434 Status Computerized\nEXTRACT OF LAND RIGHTS REGISTER (======= -41)\nOwner: Ramesh Kumar Partition Claim Unverified\nKhata: 104 Khasra: 245/7 Area: 1.05 ha\nFather Suresh Chandra Clear Title\nKhata 105 Khasra 2451 Sewer \u2018Sram Sabha Public Lang Area 035ha Batre 5\nbebe som ee\nLAND RECORD DETAILS & REVENUE ASSESSMENT\nCategory Agricultural - irrigated Tehsil Circle Circle No 04 (Rural\nLand Revenue Payable Rs 48 50: annum Last Cadastral Survey Year 2021-2022\nes Be 3 oP atu Soe als Eat Loe Ron Cog ICs D5, RES Pde\nGovt. oF UP\n= VERIFIED 2\nREVENUE DEPT\nRevenue Inspector / Tehsildar\nTehsil Sadar",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 95.0,
+        "box": [
+          291,
+          49,
+          157,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          455,
+          49,
+          28,
+          16
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 96.0,
+        "box": [
+          492,
+          49,
+          71,
+          16
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 96.0,
+        "box": [
+          572,
+          49,
+          105,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 96.0,
+        "box": [
+          271,
+          81,
+          54,
+          11
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          331,
+          81,
+          19,
+          11
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 93.0,
+        "box": [
+          356,
+          81,
+          79,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 85.0,
+        "box": [
+          429,
+          72,
+          8,
+          30
+        ]
+      },
+      {
+        "text": "22222",
+        "confidence": 58.0,
+        "box": [
+          512,
+          82,
+          51,
+          10
+        ]
+      },
+      {
+        "text": "(22-222222",
+        "confidence": 7.0,
+        "box": [
+          570,
+          81,
+          95,
+          14
+        ]
+      },
+      {
+        "text": "22222)",
+        "confidence": 79.0,
+        "box": [
+          673,
+          81,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 83.0,
+        "box": [
+          321,
+          108,
+          29,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 70.0,
+        "box": [
+          358,
+          108,
+          4,
+          11
+        ]
+      },
+      {
+        "text": "JAMABANDI",
+        "confidence": 70.0,
+        "box": [
+          367,
+          108,
+          89,
+          11
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 67.0,
+        "box": [
+          526,
+          114,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "222222",
+        "confidence": 36.0,
+        "box": [
+          536,
+          109,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "222222)",
+        "confidence": 41.0,
+        "box": [
+          606,
+          108,
+          68,
+          14
+        ]
+      },
+      {
+        "text": "State:",
+        "confidence": 94.0,
+        "box": [
+          71,
+          173,
+          33,
+          10
+        ]
+      },
+      {
+        "text": "Uttar",
+        "confidence": 96.0,
+        "box": [
+          115,
+          173,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Pradesh",
+        "confidence": 95.0,
+        "box": [
+          152,
+          173,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Village:",
+        "confidence": 95.0,
+        "box": [
+          400,
+          173,
+          45,
+          13
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 96.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Doc",
+        "confidence": 96.0,
+        "box": [
+          721,
+          173,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "ID:",
+        "confidence": 93.0,
+        "box": [
+          752,
+          173,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "UP-REV-2024-8841",
+        "confidence": 88.0,
+        "box": [
+          775,
+          173,
+          122,
+          10
+        ]
+      },
+      {
+        "text": "District",
+        "confidence": 93.0,
+        "box": [
+          71,
+          203,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 93.0,
+        "box": [
+          122,
+          203,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Pargana",
+        "confidence": 80.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Bijnor",
+        "confidence": 80.0,
+        "box": [
+          463,
+          203,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 94.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "12/04/2023",
+        "confidence": 55.0,
+        "box": [
+          760,
+          203,
+          69,
+          10
+        ]
+      },
+      {
+        "text": "Tehsil\u2019",
+        "confidence": 42.0,
+        "box": [
+          71,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 96.0,
+        "box": [
+          117,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Fasli",
+        "confidence": 71.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 95.0,
+        "box": [
+          435,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1429-1434",
+        "confidence": 85.0,
+        "box": [
+          474,
+          233,
+          66,
+          10
+        ]
+      },
+      {
+        "text": "Status",
+        "confidence": 22.0,
+        "box": [
+          721,
+          232,
+          32,
+          9
+        ]
+      },
+      {
+        "text": "Computerized",
+        "confidence": 88.0,
+        "box": [
+          761,
+          232,
+          75,
+          11
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 96.0,
+        "box": [
+          51,
+          303,
+          64,
+          10
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 97.0,
+        "box": [
+          121,
+          303,
+          18,
+          10
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          145,
+          303,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 96.0,
+        "box": [
+          188,
+          303,
+          52,
+          10
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 92.0,
+        "box": [
+          245,
+          303,
+          70,
+          10
+        ]
+      },
+      {
+        "text": "(=======",
+        "confidence": 22.0,
+        "box": [
+          320,
+          303,
+          79,
+          13
+        ]
+      },
+      {
+        "text": "-41)",
+        "confidence": 79.0,
+        "box": [
+          476,
+          303,
+          28,
+          13
+        ]
+      },
+      {
+        "text": "Owner:",
+        "confidence": 93.0,
+        "box": [
+          321,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Ramesh",
+        "confidence": 96.0,
+        "box": [
+          379,
+          395,
+          61,
+          12
+        ]
+      },
+      {
+        "text": "Kumar",
+        "confidence": 96.0,
+        "box": [
+          446,
+          395,
+          50,
+          12
+        ]
+      },
+      {
+        "text": "Partition",
+        "confidence": 96.0,
+        "box": [
+          731,
+          397,
+          43,
+          9
+        ]
+      },
+      {
+        "text": "Claim",
+        "confidence": 93.0,
+        "box": [
+          779,
+          397,
+          30,
+          9
+        ]
+      },
+      {
+        "text": "Unverified",
+        "confidence": 94.0,
+        "box": [
+          814,
+          397,
+          54,
+          9
+        ]
+      },
+      {
+        "text": "Khata:",
+        "confidence": 92.0,
+        "box": [
+          86,
+          409,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "104",
+        "confidence": 90.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Khasra:",
+        "confidence": 90.0,
+        "box": [
+          181,
+          409,
+          59,
+          12
+        ]
+      },
+      {
+        "text": "245/7",
+        "confidence": 92.0,
+        "box": [
+          248,
+          409,
+          40,
+          12
+        ]
+      },
+      {
+        "text": "Area:",
+        "confidence": 93.0,
+        "box": [
+          580,
+          409,
+          41,
+          12
+        ]
+      },
+      {
+        "text": "1.05",
+        "confidence": 92.0,
+        "box": [
+          629,
+          409,
+          31,
+          12
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 92.0,
+        "box": [
+          666,
+          409,
+          18,
+          12
+        ]
+      },
+      {
+        "text": "Father",
+        "confidence": 95.0,
+        "box": [
+          321,
+          425,
+          38,
+          10
+        ]
+      },
+      {
+        "text": "Suresh",
+        "confidence": 92.0,
+        "box": [
+          371,
+          425,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "Chandra",
+        "confidence": 85.0,
+        "box": [
+          420,
+          425,
+          53,
+          10
+        ]
+      },
+      {
+        "text": "Clear",
+        "confidence": 75.0,
+        "box": [
+          731,
+          423,
+          27,
+          8
+        ]
+      },
+      {
+        "text": "Title",
+        "confidence": 92.0,
+        "box": [
+          764,
+          422,
+          21,
+          9
+        ]
+      },
+      {
+        "text": "Khata",
+        "confidence": 86.0,
+        "box": [
+          86,
+          488,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "105",
+        "confidence": 38.0,
+        "box": [
+          134,
+          488,
+          19,
+          10
+        ]
+      },
+      {
+        "text": "Khasra",
+        "confidence": 55.0,
+        "box": [
+          181,
+          488,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "2451",
+        "confidence": 67.0,
+        "box": [
+          234,
+          488,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Sewer",
+        "confidence": 26.0,
+        "box": [
+          321,
+          482,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "\u2018Sram",
+        "confidence": 18.0,
+        "box": [
+          371,
+          482,
+          32,
+          8
+        ]
+      },
+      {
+        "text": "Sabha",
+        "confidence": 92.0,
+        "box": [
+          411,
+          480,
+          39,
+          10
+        ]
+      },
+      {
+        "text": "Public",
+        "confidence": 92.0,
+        "box": [
+          456,
+          480,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lang",
+        "confidence": 23.0,
+        "box": [
+          498,
+          480,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Area",
+        "confidence": 71.0,
+        "box": [
+          581,
+          488,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "035ha",
+        "confidence": 28.0,
+        "box": [
+          619,
+          488,
+          46,
+          10
+        ]
+      },
+      {
+        "text": "Batre",
+        "confidence": 47.0,
+        "box": [
+          800,
+          487,
+          19,
+          9
+        ]
+      },
+      {
+        "text": "5",
+        "confidence": 18.0,
+        "box": [
+          835,
+          492,
+          4,
+          1
+        ]
+      },
+      {
+        "text": "bebe",
+        "confidence": 27.0,
+        "box": [
+          321,
+          506,
+          29,
+          7
+        ]
+      },
+      {
+        "text": "som",
+        "confidence": 36.0,
+        "box": [
+          370,
+          507,
+          17,
+          6
+        ]
+      },
+      {
+        "text": "ee",
+        "confidence": 21.0,
+        "box": [
+          435,
+          506,
+          31,
+          5
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          71,
+          588,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RECORD",
+        "confidence": 78.0,
+        "box": [
+          114,
+          588,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 93.0,
+        "box": [
+          178,
+          588,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 93.0,
+        "box": [
+          242,
+          588,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 95.0,
+        "box": [
+          256,
+          588,
+          65,
+          10
+        ]
+      },
+      {
+        "text": "ASSESSMENT",
+        "confidence": 95.0,
+        "box": [
+          325,
+          588,
+          94,
+          10
+        ]
+      },
+      {
+        "text": "Category",
+        "confidence": 93.0,
+        "box": [
+          71,
+          623,
+          56,
+          13
+        ]
+      },
+      {
+        "text": "Agricultural",
+        "confidence": 84.0,
+        "box": [
+          136,
+          623,
+          136,
+          13
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 92.0,
+        "box": [
+          212,
+          614,
+          5,
+          29
+        ]
+      },
+      {
+        "text": "irrigated",
+        "confidence": 37.0,
+        "box": [
+          221,
+          623,
+          51,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 89.0,
+        "box": [
+          521,
+          623,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 89.0,
+        "box": [
+          563,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 89.0,
+        "box": [
+          607,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "No",
+        "confidence": 84.0,
+        "box": [
+          647,
+          623,
+          16,
+          10
+        ]
+      },
+      {
+        "text": "04",
+        "confidence": 84.0,
+        "box": [
+          673,
+          623,
+          14,
+          10
+        ]
+      },
+      {
+        "text": "(Rural",
+        "confidence": 18.0,
+        "box": [
+          693,
+          623,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Land",
+        "confidence": 96.0,
+        "box": [
+          71,
+          653,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 91.0,
+        "box": [
+          107,
+          653,
+          55,
+          10
+        ]
+      },
+      {
+        "text": "Payable",
+        "confidence": 72.0,
+        "box": [
+          168,
+          653,
+          49,
+          11
+        ]
+      },
+      {
+        "text": "Rs",
+        "confidence": 92.0,
+        "box": [
+          285,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "48",
+        "confidence": 66.0,
+        "box": [
+          309,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "50:",
+        "confidence": 66.0,
+        "box": [
+          330,
+          653,
+          14,
+          10
+        ]
+      },
+      {
+        "text": "annum",
+        "confidence": 91.0,
+        "box": [
+          358,
+          655,
+          42,
+          8
+        ]
+      },
+      {
+        "text": "Last",
+        "confidence": 90.0,
+        "box": [
+          521,
+          653,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "Cadastral",
+        "confidence": 90.0,
+        "box": [
+          552,
+          653,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "Survey",
+        "confidence": 92.0,
+        "box": [
+          617,
+          653,
+          42,
+          11
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 92.0,
+        "box": [
+          665,
+          653,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "2021-2022",
+        "confidence": 92.0,
+        "box": [
+          703,
+          653,
+          67,
+          10
+        ]
+      },
+      {
+        "text": "es",
+        "confidence": 47.0,
+        "box": [
+          79,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Be",
+        "confidence": 48.0,
+        "box": [
+          116,
+          682,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "3",
+        "confidence": 8.0,
+        "box": [
+          135,
+          671,
+          5,
+          30
+        ]
+      },
+      {
+        "text": "oP",
+        "confidence": 34.0,
+        "box": [
+          149,
+          685,
+          4,
+          4
+        ]
+      },
+      {
+        "text": "atu",
+        "confidence": 22.0,
+        "box": [
+          158,
+          683,
+          29,
+          8
+        ]
+      },
+      {
+        "text": "Soe",
+        "confidence": 1.0,
+        "box": [
+          202,
+          683,
+          25,
+          8
+        ]
+      },
+      {
+        "text": "als",
+        "confidence": 32.0,
+        "box": [
+          249,
+          684,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "Eat",
+        "confidence": 46.0,
+        "box": [
+          271,
+          683,
+          43,
+          8
+        ]
+      },
+      {
+        "text": "Loe",
+        "confidence": 50.0,
+        "box": [
+          307,
+          671,
+          13,
+          30
+        ]
+      },
+      {
+        "text": "Ron",
+        "confidence": 18.0,
+        "box": [
+          325,
+          684,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Cog",
+        "confidence": 1.0,
+        "box": [
+          521,
+          682,
+          30,
+          9
+        ]
+      },
+      {
+        "text": "ICs",
+        "confidence": 13.0,
+        "box": [
+          614,
+          671,
+          13,
+          30
+        ]
+      },
+      {
+        "text": "D5,",
+        "confidence": 41.0,
+        "box": [
+          633,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "RES",
+        "confidence": 34.0,
+        "box": [
+          663,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "Pde",
+        "confidence": 1.0,
+        "box": [
+          713,
+          683,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "Govt.",
+        "confidence": 60.0,
+        "box": [
+          786,
+          1095,
+          28,
+          7
+        ]
+      },
+      {
+        "text": "oF",
+        "confidence": 60.0,
+        "box": [
+          821,
+          1095,
+          12,
+          7
+        ]
+      },
+      {
+        "text": "UP",
+        "confidence": 76.0,
+        "box": [
+          838,
+          1095,
+          15,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 67.0,
+        "box": [
+          794,
+          1110,
+          4,
+          7
+        ]
+      },
+      {
+        "text": "VERIFIED",
+        "confidence": 83.0,
+        "box": [
+          803,
+          1110,
+          56,
+          7
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 59.0,
+        "box": [
+          855,
+          1097,
+          8,
+          30
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 42.0,
+        "box": [
+          789,
+          1125,
+          47,
+          7
+        ]
+      },
+      {
+        "text": "DEPT",
+        "confidence": 86.0,
+        "box": [
+          841,
+          1125,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          751,
+          1243,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "Inspector",
+        "confidence": 79.0,
+        "box": [
+          815,
+          1243,
+          140,
+          13
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 81.0,
+        "box": [
+          882,
+          1233,
+          5,
+          30
+        ]
+      },
+      {
+        "text": "Tehsildar",
+        "confidence": 89.0,
+        "box": [
+          894,
+          1243,
+          61,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 90.0,
+        "box": [
+          771,
+          1262,
+          31,
+          9
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 91.0,
+        "box": [
+          807,
+          1262,
+          30,
+          9
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_4_khasra_mismatch.png",
+    "annotated_sample": "annotated_demo_4_khasra_mismatch.png"
+  },
+  "mutation_issue": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_5_mutation_issue.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 71.3,
+    "word_count": 142,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE / ====== ===27 (22-222222 22222)\nROR / JAMABANDI (====7 - ====== ===222)\nState: Uttar Pradesh Village: Rampur Doc ID: UP-REV-2024-8841\nDistrict Lucknow Pargana Binor Date\nTehsit Sadar Fasli Year 1429-1434 Status Computerized Record\nEXTRACT OF LAND RIGHTS REGISTER (======= =====7-41)\nOwner: Vikram Singh Dispute Pending Case No\nKhata: 145 Khasra: 312/14 Area: 2.10 ha oaone.\nFather Ranveer Singh 4 2.2020 Court of Tehsiidar\nKhata 105 Khasra 245-1 \u2018rare Sabha Public Lang Area at &\nbale sate ee\nLAND RECORD DETAILS & REVENUE ASSESSMENT\nCategory Agricultural - Single Crop Tehsil Circle Circle No 04 (Rurals\nLand Revenue Payable (227) Rs 4850: annum Last Cadastral Survey Year 2021-2022\nses Be 2 Pte ater 2 gs ate Le Kn Digit: > DS, REN Peto\nGovt. oF UF\n1 VERIFIED =\nREVENUE DEPT\nRevenue Inspector / Tehsildar\nTehsil Sadar",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 96.0,
+        "box": [
+          291,
+          49,
+          157,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          455,
+          49,
+          28,
+          16
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 95.0,
+        "box": [
+          492,
+          49,
+          71,
+          16
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 96.0,
+        "box": [
+          572,
+          49,
+          105,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 95.0,
+        "box": [
+          271,
+          81,
+          54,
+          11
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          331,
+          81,
+          19,
+          11
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 93.0,
+        "box": [
+          356,
+          81,
+          79,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 85.0,
+        "box": [
+          429,
+          69,
+          9,
+          33
+        ]
+      },
+      {
+        "text": "======",
+        "confidence": 18.0,
+        "box": [
+          442,
+          82,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "===27",
+        "confidence": 24.0,
+        "box": [
+          512,
+          82,
+          51,
+          10
+        ]
+      },
+      {
+        "text": "(22-222222",
+        "confidence": 40.0,
+        "box": [
+          570,
+          81,
+          95,
+          14
+        ]
+      },
+      {
+        "text": "22222)",
+        "confidence": 55.0,
+        "box": [
+          673,
+          81,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 78.0,
+        "box": [
+          321,
+          96,
+          27,
+          33
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 78.0,
+        "box": [
+          355,
+          108,
+          7,
+          11
+        ]
+      },
+      {
+        "text": "JAMABANDI",
+        "confidence": 86.0,
+        "box": [
+          367,
+          108,
+          89,
+          11
+        ]
+      },
+      {
+        "text": "(====7",
+        "confidence": 46.0,
+        "box": [
+          462,
+          108,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 30.0,
+        "box": [
+          526,
+          114,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "======",
+        "confidence": 30.0,
+        "box": [
+          536,
+          109,
+          62,
+          10
+        ]
+      },
+      {
+        "text": "===222)",
+        "confidence": 34.0,
+        "box": [
+          606,
+          108,
+          68,
+          14
+        ]
+      },
+      {
+        "text": "State:",
+        "confidence": 96.0,
+        "box": [
+          71,
+          173,
+          33,
+          10
+        ]
+      },
+      {
+        "text": "Uttar",
+        "confidence": 96.0,
+        "box": [
+          115,
+          173,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Pradesh",
+        "confidence": 96.0,
+        "box": [
+          152,
+          173,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Village:",
+        "confidence": 96.0,
+        "box": [
+          400,
+          173,
+          45,
+          13
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 96.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Doc",
+        "confidence": 95.0,
+        "box": [
+          721,
+          173,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "ID:",
+        "confidence": 93.0,
+        "box": [
+          752,
+          173,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "UP-REV-2024-8841",
+        "confidence": 65.0,
+        "box": [
+          775,
+          173,
+          122,
+          10
+        ]
+      },
+      {
+        "text": "District",
+        "confidence": 92.0,
+        "box": [
+          71,
+          203,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 92.0,
+        "box": [
+          122,
+          203,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Pargana",
+        "confidence": 84.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Binor",
+        "confidence": 45.0,
+        "box": [
+          463,
+          203,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 89.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Tehsit",
+        "confidence": 80.0,
+        "box": [
+          71,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 96.0,
+        "box": [
+          117,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Fasli",
+        "confidence": 82.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 93.0,
+        "box": [
+          435,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1429-1434",
+        "confidence": 91.0,
+        "box": [
+          474,
+          233,
+          66,
+          10
+        ]
+      },
+      {
+        "text": "Status",
+        "confidence": 89.0,
+        "box": [
+          721,
+          232,
+          32,
+          9
+        ]
+      },
+      {
+        "text": "Computerized",
+        "confidence": 90.0,
+        "box": [
+          761,
+          232,
+          75,
+          11
+        ]
+      },
+      {
+        "text": "Record",
+        "confidence": 47.0,
+        "box": [
+          841,
+          232,
+          38,
+          9
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 95.0,
+        "box": [
+          51,
+          303,
+          64,
+          10
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          121,
+          303,
+          18,
+          10
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          145,
+          303,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 96.0,
+        "box": [
+          188,
+          303,
+          52,
+          10
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 93.0,
+        "box": [
+          245,
+          303,
+          70,
+          10
+        ]
+      },
+      {
+        "text": "(=======",
+        "confidence": 26.0,
+        "box": [
+          320,
+          303,
+          79,
+          13
+        ]
+      },
+      {
+        "text": "=====7-41)",
+        "confidence": 52.0,
+        "box": [
+          407,
+          303,
+          97,
+          13
+        ]
+      },
+      {
+        "text": "Owner:",
+        "confidence": 94.0,
+        "box": [
+          321,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Vikram",
+        "confidence": 96.0,
+        "box": [
+          378,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Singh",
+        "confidence": 96.0,
+        "box": [
+          436,
+          395,
+          43,
+          15
+        ]
+      },
+      {
+        "text": "Dispute",
+        "confidence": 93.0,
+        "box": [
+          772,
+          397,
+          40,
+          11
+        ]
+      },
+      {
+        "text": "Pending",
+        "confidence": 95.0,
+        "box": [
+          817,
+          397,
+          44,
+          11
+        ]
+      },
+      {
+        "text": "Case",
+        "confidence": 95.0,
+        "box": [
+          866,
+          397,
+          27,
+          9
+        ]
+      },
+      {
+        "text": "No",
+        "confidence": 95.0,
+        "box": [
+          898,
+          397,
+          14,
+          9
+        ]
+      },
+      {
+        "text": "Khata:",
+        "confidence": 92.0,
+        "box": [
+          86,
+          409,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "145",
+        "confidence": 90.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Khasra:",
+        "confidence": 90.0,
+        "box": [
+          181,
+          409,
+          59,
+          12
+        ]
+      },
+      {
+        "text": "312/14",
+        "confidence": 24.0,
+        "box": [
+          248,
+          409,
+          38,
+          12
+        ]
+      },
+      {
+        "text": "Area:",
+        "confidence": 93.0,
+        "box": [
+          580,
+          409,
+          41,
+          12
+        ]
+      },
+      {
+        "text": "2.10",
+        "confidence": 87.0,
+        "box": [
+          629,
+          409,
+          31,
+          12
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 87.0,
+        "box": [
+          666,
+          409,
+          18,
+          12
+        ]
+      },
+      {
+        "text": "oaone.",
+        "confidence": 7.0,
+        "box": [
+          755,
+          422,
+          36,
+          4
+        ]
+      },
+      {
+        "text": "Father",
+        "confidence": 91.0,
+        "box": [
+          321,
+          425,
+          38,
+          10
+        ]
+      },
+      {
+        "text": "Ranveer",
+        "confidence": 87.0,
+        "box": [
+          371,
+          425,
+          50,
+          10
+        ]
+      },
+      {
+        "text": "Singh",
+        "confidence": 94.0,
+        "box": [
+          429,
+          425,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "4",
+        "confidence": 53.0,
+        "box": [
+          730,
+          422,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "2.2020",
+        "confidence": 53.0,
+        "box": [
+          745,
+          423,
+          36,
+          8
+        ]
+      },
+      {
+        "text": "Court",
+        "confidence": 76.0,
+        "box": [
+          786,
+          422,
+          94,
+          9
+        ]
+      },
+      {
+        "text": "of",
+        "confidence": 46.0,
+        "box": [
+          819,
+          409,
+          9,
+          32
+        ]
+      },
+      {
+        "text": "Tehsiidar",
+        "confidence": 42.0,
+        "box": [
+          835,
+          422,
+          45,
+          9
+        ]
+      },
+      {
+        "text": "Khata",
+        "confidence": 89.0,
+        "box": [
+          86,
+          488,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "105",
+        "confidence": 59.0,
+        "box": [
+          134,
+          488,
+          19,
+          10
+        ]
+      },
+      {
+        "text": "Khasra",
+        "confidence": 82.0,
+        "box": [
+          181,
+          488,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "245-1",
+        "confidence": 93.0,
+        "box": [
+          234,
+          488,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "\u2018rare",
+        "confidence": 47.0,
+        "box": [
+          371,
+          482,
+          32,
+          8
+        ]
+      },
+      {
+        "text": "Sabha",
+        "confidence": 88.0,
+        "box": [
+          411,
+          480,
+          39,
+          10
+        ]
+      },
+      {
+        "text": "Public",
+        "confidence": 86.0,
+        "box": [
+          456,
+          480,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lang",
+        "confidence": 53.0,
+        "box": [
+          498,
+          480,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Area",
+        "confidence": 83.0,
+        "box": [
+          581,
+          488,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "at",
+        "confidence": 1.0,
+        "box": [
+          748,
+          489,
+          9,
+          7
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 40.0,
+        "box": [
+          835,
+          491,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "bale",
+        "confidence": 42.0,
+        "box": [
+          321,
+          506,
+          29,
+          7
+        ]
+      },
+      {
+        "text": "sate",
+        "confidence": 48.0,
+        "box": [
+          370,
+          506,
+          50,
+          7
+        ]
+      },
+      {
+        "text": "ee",
+        "confidence": 25.0,
+        "box": [
+          461,
+          510,
+          5,
+          1
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          71,
+          588,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RECORD",
+        "confidence": 94.0,
+        "box": [
+          114,
+          588,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 93.0,
+        "box": [
+          178,
+          588,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 93.0,
+        "box": [
+          242,
+          588,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 96.0,
+        "box": [
+          256,
+          588,
+          65,
+          10
+        ]
+      },
+      {
+        "text": "ASSESSMENT",
+        "confidence": 92.0,
+        "box": [
+          325,
+          588,
+          94,
+          10
+        ]
+      },
+      {
+        "text": "Category",
+        "confidence": 92.0,
+        "box": [
+          71,
+          623,
+          56,
+          13
+        ]
+      },
+      {
+        "text": "Agricultural",
+        "confidence": 12.0,
+        "box": [
+          136,
+          623,
+          122,
+          13
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 92.0,
+        "box": [
+          213,
+          611,
+          4,
+          32
+        ]
+      },
+      {
+        "text": "Single",
+        "confidence": 96.0,
+        "box": [
+          224,
+          623,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Crop",
+        "confidence": 94.0,
+        "box": [
+          264,
+          623,
+          29,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 93.0,
+        "box": [
+          521,
+          623,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 86.0,
+        "box": [
+          563,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 86.0,
+        "box": [
+          607,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "No",
+        "confidence": 72.0,
+        "box": [
+          647,
+          623,
+          16,
+          10
+        ]
+      },
+      {
+        "text": "04",
+        "confidence": 72.0,
+        "box": [
+          673,
+          623,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "(Rurals",
+        "confidence": 23.0,
+        "box": [
+          693,
+          623,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Land",
+        "confidence": 96.0,
+        "box": [
+          71,
+          653,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 92.0,
+        "box": [
+          107,
+          653,
+          55,
+          10
+        ]
+      },
+      {
+        "text": "Payable",
+        "confidence": 90.0,
+        "box": [
+          168,
+          653,
+          49,
+          11
+        ]
+      },
+      {
+        "text": "(227)",
+        "confidence": 60.0,
+        "box": [
+          229,
+          653,
+          46,
+          10
+        ]
+      },
+      {
+        "text": "Rs",
+        "confidence": 78.0,
+        "box": [
+          285,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "4850:",
+        "confidence": 72.0,
+        "box": [
+          309,
+          653,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "annum",
+        "confidence": 93.0,
+        "box": [
+          358,
+          655,
+          42,
+          8
+        ]
+      },
+      {
+        "text": "Last",
+        "confidence": 96.0,
+        "box": [
+          521,
+          653,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "Cadastral",
+        "confidence": 96.0,
+        "box": [
+          552,
+          653,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "Survey",
+        "confidence": 93.0,
+        "box": [
+          617,
+          653,
+          42,
+          11
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 94.0,
+        "box": [
+          665,
+          653,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "2021-2022",
+        "confidence": 94.0,
+        "box": [
+          703,
+          653,
+          67,
+          10
+        ]
+      },
+      {
+        "text": "ses",
+        "confidence": 27.0,
+        "box": [
+          79,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Be",
+        "confidence": 55.0,
+        "box": [
+          116,
+          682,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 21.0,
+        "box": [
+          135,
+          668,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "Pte",
+        "confidence": 6.0,
+        "box": [
+          149,
+          683,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "ater",
+        "confidence": 34.0,
+        "box": [
+          202,
+          683,
+          25,
+          8
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 17.0,
+        "box": [
+          234,
+          668,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "gs",
+        "confidence": 58.0,
+        "box": [
+          249,
+          684,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "ate",
+        "confidence": 12.0,
+        "box": [
+          271,
+          683,
+          43,
+          8
+        ]
+      },
+      {
+        "text": "Le",
+        "confidence": 42.0,
+        "box": [
+          306,
+          668,
+          14,
+          33
+        ]
+      },
+      {
+        "text": "Kn",
+        "confidence": 27.0,
+        "box": [
+          325,
+          683,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "Digit:",
+        "confidence": 6.0,
+        "box": [
+          521,
+          682,
+          30,
+          9
+        ]
+      },
+      {
+        "text": ">",
+        "confidence": 36.0,
+        "box": [
+          618,
+          668,
+          9,
+          33
+        ]
+      },
+      {
+        "text": "DS,",
+        "confidence": 22.0,
+        "box": [
+          633,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "REN",
+        "confidence": 17.0,
+        "box": [
+          663,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "Peto",
+        "confidence": 5.0,
+        "box": [
+          692,
+          682,
+          54,
+          9
+        ]
+      },
+      {
+        "text": "Govt.",
+        "confidence": 57.0,
+        "box": [
+          786,
+          1095,
+          28,
+          7
+        ]
+      },
+      {
+        "text": "oF",
+        "confidence": 75.0,
+        "box": [
+          821,
+          1095,
+          12,
+          7
+        ]
+      },
+      {
+        "text": "UF",
+        "confidence": 67.0,
+        "box": [
+          848,
+          1095,
+          5,
+          7
+        ]
+      },
+      {
+        "text": "1",
+        "confidence": 56.0,
+        "box": [
+          790,
+          1094,
+          6,
+          33
+        ]
+      },
+      {
+        "text": "VERIFIED",
+        "confidence": 63.0,
+        "box": [
+          794,
+          1110,
+          65,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 95.0,
+        "box": [
+          856,
+          1094,
+          6,
+          33
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 71.0,
+        "box": [
+          789,
+          1125,
+          47,
+          7
+        ]
+      },
+      {
+        "text": "DEPT",
+        "confidence": 74.0,
+        "box": [
+          841,
+          1125,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          751,
+          1243,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "Inspector",
+        "confidence": 92.0,
+        "box": [
+          815,
+          1243,
+          140,
+          13
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 80.0,
+        "box": [
+          884,
+          1230,
+          4,
+          33
+        ]
+      },
+      {
+        "text": "Tehsildar",
+        "confidence": 80.0,
+        "box": [
+          892,
+          1243,
+          63,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 67.0,
+        "box": [
+          771,
+          1262,
+          31,
+          9
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 93.0,
+        "box": [
+          807,
+          1262,
+          30,
+          9
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_5_mutation_issue.png",
+    "annotated_sample": "annotated_demo_5_mutation_issue.png"
+  },
+  "degraded_scan": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_6_degraded_scan.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 43.8,
+    "word_count": 97,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE\u2019 (\nROR | ( : )\nfete Umer Predeoh Rampur Des I\nEne acter Pergena Byrne Date 1206 2023\nTenet Sema Faeh eer 1428 1444 se cae a\nEXTRACT GF LAND RIGHTS REGISTER { \u201c40\n\u2018Owner Rameoh Kumar eee Sea mae\nKhate, 104 Kheere, 2466/2 Area. 106 ha\nSate est ata \u201c+\nale Wace 8 ae er ed aes . ok\nLANG RECORO DETAILS & REVENUE\nangry Agee agains Tr WR Ne Hd tat\nLan Oe ad Lam at ety ree Het 2.\nRevenue mapester | Tohetiar\nene seme see",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 96.0,
+        "box": [
+          291,
+          49,
+          272,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 95.0,
+        "box": [
+          454,
+          45,
+          28,
+          30
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 96.0,
+        "box": [
+          494,
+          45,
+          68,
+          30
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 95.0,
+        "box": [
+          571,
+          49,
+          107,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 60.0,
+        "box": [
+          267,
+          73,
+          54,
+          29
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 95.0,
+        "box": [
+          329,
+          73,
+          21,
+          29
+        ]
+      },
+      {
+        "text": "REVENUE\u2019",
+        "confidence": 53.0,
+        "box": [
+          356,
+          73,
+          79,
+          29
+        ]
+      },
+      {
+        "text": "(",
+        "confidence": 46.0,
+        "box": [
+          570,
+          83,
+          2,
+          10
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 69.0,
+        "box": [
+          317,
+          100,
+          32,
+          29
+        ]
+      },
+      {
+        "text": "|",
+        "confidence": 86.0,
+        "box": [
+          359,
+          110,
+          2,
+          7
+        ]
+      },
+      {
+        "text": "(",
+        "confidence": 48.0,
+        "box": [
+          462,
+          109,
+          3,
+          11
+        ]
+      },
+      {
+        "text": ":",
+        "confidence": 34.0,
+        "box": [
+          527,
+          114,
+          2,
+          2
+        ]
+      },
+      {
+        "text": ")",
+        "confidence": 37.0,
+        "box": [
+          671,
+          109,
+          3,
+          11
+        ]
+      },
+      {
+        "text": "fete",
+        "confidence": 43.0,
+        "box": [
+          71,
+          173,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Umer",
+        "confidence": 37.0,
+        "box": [
+          115,
+          164,
+          32,
+          29
+        ]
+      },
+      {
+        "text": "Predeoh",
+        "confidence": 25.0,
+        "box": [
+          154,
+          164,
+          56,
+          29
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 52.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Des",
+        "confidence": 71.0,
+        "box": [
+          721,
+          173,
+          44,
+          10
+        ]
+      },
+      {
+        "text": "I",
+        "confidence": 21.0,
+        "box": [
+          753,
+          164,
+          10,
+          29
+        ]
+      },
+      {
+        "text": "Ene",
+        "confidence": 5.0,
+        "box": [
+          71,
+          203,
+          41,
+          10
+        ]
+      },
+      {
+        "text": "acter",
+        "confidence": 28.0,
+        "box": [
+          122,
+          204,
+          54,
+          9
+        ]
+      },
+      {
+        "text": "Pergena",
+        "confidence": 48.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Byrne",
+        "confidence": 25.0,
+        "box": [
+          463,
+          203,
+          33,
+          12
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 37.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1206",
+        "confidence": 62.0,
+        "box": [
+          761,
+          203,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "2023",
+        "confidence": 79.0,
+        "box": [
+          799,
+          203,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Tenet",
+        "confidence": 63.0,
+        "box": [
+          72,
+          233,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "Sema",
+        "confidence": 38.0,
+        "box": [
+          117,
+          233,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "Faeh",
+        "confidence": 36.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "eer",
+        "confidence": 50.0,
+        "box": [
+          436,
+          235,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "1428",
+        "confidence": 71.0,
+        "box": [
+          475,
+          233,
+          29,
+          10
+        ]
+      },
+      {
+        "text": "1444",
+        "confidence": 60.0,
+        "box": [
+          512,
+          233,
+          28,
+          9
+        ]
+      },
+      {
+        "text": "se",
+        "confidence": 19.0,
+        "box": [
+          723,
+          234,
+          30,
+          7
+        ]
+      },
+      {
+        "text": "cae",
+        "confidence": 23.0,
+        "box": [
+          818,
+          221,
+          15,
+          29
+        ]
+      },
+      {
+        "text": "a",
+        "confidence": 37.0,
+        "box": [
+          844,
+          234,
+          11,
+          6
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 81.0,
+        "box": [
+          47,
+          294,
+          66,
+          29
+        ]
+      },
+      {
+        "text": "GF",
+        "confidence": 58.0,
+        "box": [
+          121,
+          294,
+          16,
+          29
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 76.0,
+        "box": [
+          146,
+          294,
+          37,
+          29
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 6.0,
+        "box": [
+          189,
+          294,
+          49,
+          29
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 20.0,
+        "box": [
+          247,
+          294,
+          66,
+          29
+        ]
+      },
+      {
+        "text": "{",
+        "confidence": 45.0,
+        "box": [
+          320,
+          304,
+          3,
+          11
+        ]
+      },
+      {
+        "text": "\u201c40",
+        "confidence": 44.0,
+        "box": [
+          476,
+          303,
+          28,
+          12
+        ]
+      },
+      {
+        "text": "\u2018Owner",
+        "confidence": 43.0,
+        "box": [
+          320,
+          395,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "Rameoh",
+        "confidence": 19.0,
+        "box": [
+          380,
+          391,
+          59,
+          25
+        ]
+      },
+      {
+        "text": "Kumar",
+        "confidence": 68.0,
+        "box": [
+          449,
+          391,
+          51,
+          25
+        ]
+      },
+      {
+        "text": "eee",
+        "confidence": 16.0,
+        "box": [
+          731,
+          398,
+          96,
+          8
+        ]
+      },
+      {
+        "text": "Sea",
+        "confidence": 11.0,
+        "box": [
+          836,
+          399,
+          21,
+          6
+        ]
+      },
+      {
+        "text": "mae",
+        "confidence": 24.0,
+        "box": [
+          874,
+          400,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "Khate,",
+        "confidence": 45.0,
+        "box": [
+          86,
+          409,
+          45,
+          12
+        ]
+      },
+      {
+        "text": "104",
+        "confidence": 74.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Kheere,",
+        "confidence": 23.0,
+        "box": [
+          181,
+          409,
+          55,
+          12
+        ]
+      },
+      {
+        "text": "2466/2",
+        "confidence": 36.0,
+        "box": [
+          248,
+          409,
+          40,
+          12
+        ]
+      },
+      {
+        "text": "Area.",
+        "confidence": 71.0,
+        "box": [
+          581,
+          409,
+          36,
+          12
+        ]
+      },
+      {
+        "text": "106",
+        "confidence": 71.0,
+        "box": [
+          631,
+          405,
+          30,
+          25
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 78.0,
+        "box": [
+          666,
+          405,
+          18,
+          25
+        ]
+      },
+      {
+        "text": "Sate",
+        "confidence": 17.0,
+        "box": [
+          321,
+          426,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "est",
+        "confidence": 29.0,
+        "box": [
+          374,
+          427,
+          36,
+          7
+        ]
+      },
+      {
+        "text": "ata",
+        "confidence": 8.0,
+        "box": [
+          430,
+          427,
+          43,
+          7
+        ]
+      },
+      {
+        "text": "\u201c+",
+        "confidence": 41.0,
+        "box": [
+          742,
+          425,
+          14,
+          5
+        ]
+      },
+      {
+        "text": "ale",
+        "confidence": 38.0,
+        "box": [
+          95,
+          490,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Wace",
+        "confidence": 27.0,
+        "box": [
+          181,
+          490,
+          43,
+          7
+        ]
+      },
+      {
+        "text": "8",
+        "confidence": 24.0,
+        "box": [
+          243,
+          491,
+          4,
+          5
+        ]
+      },
+      {
+        "text": "ae",
+        "confidence": 6.0,
+        "box": [
+          331,
+          483,
+          70,
+          6
+        ]
+      },
+      {
+        "text": "er",
+        "confidence": 25.0,
+        "box": [
+          417,
+          482,
+          42,
+          7
+        ]
+      },
+      {
+        "text": "ed",
+        "confidence": 25.0,
+        "box": [
+          507,
+          483,
+          8,
+          6
+        ]
+      },
+      {
+        "text": "aes",
+        "confidence": 40.0,
+        "box": [
+          582,
+          490,
+          27,
+          7
+        ]
+      },
+      {
+        "text": ".",
+        "confidence": 66.0,
+        "box": [
+          659,
+          492,
+          6,
+          5
+        ]
+      },
+      {
+        "text": "ok",
+        "confidence": 8.0,
+        "box": [
+          748,
+          490,
+          68,
+          4
+        ]
+      },
+      {
+        "text": "LANG",
+        "confidence": 92.0,
+        "box": [
+          67,
+          579,
+          42,
+          29
+        ]
+      },
+      {
+        "text": "RECORO",
+        "confidence": 64.0,
+        "box": [
+          115,
+          579,
+          54,
+          29
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 28.0,
+        "box": [
+          180,
+          579,
+          57,
+          29
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 76.0,
+        "box": [
+          243,
+          588,
+          7,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 93.0,
+        "box": [
+          260,
+          579,
+          61,
+          29
+        ]
+      },
+      {
+        "text": "angry",
+        "confidence": 28.0,
+        "box": [
+          71,
+          624,
+          56,
+          12
+        ]
+      },
+      {
+        "text": "Agee",
+        "confidence": 19.0,
+        "box": [
+          139,
+          613,
+          25,
+          30
+        ]
+      },
+      {
+        "text": "agains",
+        "confidence": 18.0,
+        "box": [
+          221,
+          624,
+          51,
+          12
+        ]
+      },
+      {
+        "text": "Tr",
+        "confidence": 29.0,
+        "box": [
+          522,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "WR",
+        "confidence": 15.0,
+        "box": [
+          563,
+          624,
+          100,
+          9
+        ]
+      },
+      {
+        "text": "Ne",
+        "confidence": 28.0,
+        "box": [
+          648,
+          612,
+          15,
+          30
+        ]
+      },
+      {
+        "text": "Hd",
+        "confidence": 20.0,
+        "box": [
+          675,
+          612,
+          12,
+          30
+        ]
+      },
+      {
+        "text": "tat",
+        "confidence": 36.0,
+        "box": [
+          698,
+          623,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lan",
+        "confidence": 29.0,
+        "box": [
+          71,
+          643,
+          24,
+          30
+        ]
+      },
+      {
+        "text": "Oe",
+        "confidence": 13.0,
+        "box": [
+          285,
+          653,
+          55,
+          9
+        ]
+      },
+      {
+        "text": "ad",
+        "confidence": 48.0,
+        "box": [
+          358,
+          655,
+          41,
+          8
+        ]
+      },
+      {
+        "text": "Lam",
+        "confidence": 50.0,
+        "box": [
+          521,
+          644,
+          25,
+          29
+        ]
+      },
+      {
+        "text": "at",
+        "confidence": 61.0,
+        "box": [
+          604,
+          644,
+          8,
+          29
+        ]
+      },
+      {
+        "text": "ety",
+        "confidence": 13.0,
+        "box": [
+          623,
+          644,
+          36,
+          29
+        ]
+      },
+      {
+        "text": "ree",
+        "confidence": 17.0,
+        "box": [
+          666,
+          644,
+          25,
+          29
+        ]
+      },
+      {
+        "text": "Het",
+        "confidence": 35.0,
+        "box": [
+          705,
+          654,
+          26,
+          9
+        ]
+      },
+      {
+        "text": "2.",
+        "confidence": 41.0,
+        "box": [
+          749,
+          654,
+          19,
+          9
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 84.0,
+        "box": [
+          747,
+          1234,
+          63,
+          29
+        ]
+      },
+      {
+        "text": "mapester",
+        "confidence": 46.0,
+        "box": [
+          819,
+          1234,
+          59,
+          29
+        ]
+      },
+      {
+        "text": "|",
+        "confidence": 50.0,
+        "box": [
+          884,
+          1244,
+          2,
+          7
+        ]
+      },
+      {
+        "text": "Tohetiar",
+        "confidence": 5.0,
+        "box": [
+          891,
+          1243,
+          64,
+          13
+        ]
+      },
+      {
+        "text": "ene",
+        "confidence": 43.0,
+        "box": [
+          773,
+          1251,
+          28,
+          29
+        ]
+      },
+      {
+        "text": "seme",
+        "confidence": 37.0,
+        "box": [
+          810,
+          1251,
+          32,
+          29
+        ]
+      },
+      {
+        "text": "see",
+        "confidence": 23.0,
+        "box": [
+          855,
+          1264,
+          37,
+          6
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_6_degraded_scan.png",
+    "annotated_sample": "annotated_demo_6_degraded_scan.png"
+  },
+  "multiple_anomalies": {
+    "preprocessing_meta": {
+      "enhanced_path": "sample_documents\\enhanced_demo_7_multiple_anomalies.png",
+      "width": 1000,
+      "height": 1350,
+      "skew_angle": -0.0
+    },
+    "average_confidence": 72.7,
+    "word_count": 138,
+    "raw_text": "GOVERNMENT OF UTTAR PRADESH\nBOARD OF REVENUE / =~ ===72> (2=-222222 22222)\nROR / JAMABANDI -====== =====2)\nState: Uttar Pradesh Village: Rampur Doc ID: UP-REV-2024-8841\nDistrict Lucknow Pargana Binor Date 12/04/2023\nTehsil Sadar Fasli Year 1429-1434 Status Camputerized Record\nEXTRACT OF LAND RIGHTS REGISTER (=~ ======-41)\nOwner: Dinesh Kumar Verma Court Injunction Order Dated\nKhata: 118 Khasra: 245/7 Area: 1.45 ha a\nFather Kailash Chandra verma\nKhata 195 Khasra 245-1 Sawer \u2018Sram Sabha Public Lang Area at ke Fatt 2\nbate ota te Bee\nLAND RECORD DETAILS & REVENUE ASSESSMENT\nCategory Commercial - Highway Facing Tehsil Circle Circle No 04 (Rurali\nLand Revenue Payable i====i Rs 4850 annum Last Cadastral Survey Year 2021-2022\nes Be oP atu les Eat Loe Koon Srgratre I DS,\nGovt. oF UP\n= VERIFIED =\nREVENUE DEPT\nRevenue Inspector / Tehsildar\nTehsil Sadar",
+    "bounding_boxes": [
+      {
+        "text": "GOVERNMENT",
+        "confidence": 95.0,
+        "box": [
+          291,
+          49,
+          157,
+          16
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 95.0,
+        "box": [
+          455,
+          49,
+          28,
+          16
+        ]
+      },
+      {
+        "text": "UTTAR",
+        "confidence": 96.0,
+        "box": [
+          492,
+          49,
+          71,
+          16
+        ]
+      },
+      {
+        "text": "PRADESH",
+        "confidence": 96.0,
+        "box": [
+          572,
+          49,
+          105,
+          16
+        ]
+      },
+      {
+        "text": "BOARD",
+        "confidence": 96.0,
+        "box": [
+          271,
+          81,
+          54,
+          11
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 97.0,
+        "box": [
+          331,
+          81,
+          19,
+          11
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 93.0,
+        "box": [
+          356,
+          81,
+          79,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 91.0,
+        "box": [
+          428,
+          73,
+          9,
+          29
+        ]
+      },
+      {
+        "text": "=~",
+        "confidence": 2.0,
+        "box": [
+          443,
+          82,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "===72>",
+        "confidence": 7.0,
+        "box": [
+          512,
+          82,
+          51,
+          10
+        ]
+      },
+      {
+        "text": "(2=-222222",
+        "confidence": 8.0,
+        "box": [
+          570,
+          81,
+          95,
+          14
+        ]
+      },
+      {
+        "text": "22222)",
+        "confidence": 35.0,
+        "box": [
+          673,
+          81,
+          57,
+          14
+        ]
+      },
+      {
+        "text": "ROR",
+        "confidence": 91.0,
+        "box": [
+          321,
+          108,
+          28,
+          11
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 91.0,
+        "box": [
+          358,
+          108,
+          4,
+          11
+        ]
+      },
+      {
+        "text": "JAMABANDI",
+        "confidence": 89.0,
+        "box": [
+          367,
+          108,
+          89,
+          11
+        ]
+      },
+      {
+        "text": "-======",
+        "confidence": 51.0,
+        "box": [
+          526,
+          109,
+          72,
+          10
+        ]
+      },
+      {
+        "text": "=====2)",
+        "confidence": 30.0,
+        "box": [
+          606,
+          108,
+          68,
+          14
+        ]
+      },
+      {
+        "text": "State:",
+        "confidence": 96.0,
+        "box": [
+          71,
+          173,
+          33,
+          10
+        ]
+      },
+      {
+        "text": "Uttar",
+        "confidence": 92.0,
+        "box": [
+          115,
+          173,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Pradesh",
+        "confidence": 92.0,
+        "box": [
+          152,
+          173,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Village:",
+        "confidence": 93.0,
+        "box": [
+          400,
+          173,
+          45,
+          13
+        ]
+      },
+      {
+        "text": "Rampur",
+        "confidence": 95.0,
+        "box": [
+          456,
+          173,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Doc",
+        "confidence": 94.0,
+        "box": [
+          721,
+          173,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "ID:",
+        "confidence": 93.0,
+        "box": [
+          752,
+          173,
+          12,
+          10
+        ]
+      },
+      {
+        "text": "UP-REV-2024-8841",
+        "confidence": 91.0,
+        "box": [
+          775,
+          173,
+          122,
+          10
+        ]
+      },
+      {
+        "text": "District",
+        "confidence": 92.0,
+        "box": [
+          71,
+          203,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "confidence": 92.0,
+        "box": [
+          122,
+          203,
+          54,
+          10
+        ]
+      },
+      {
+        "text": "Pargana",
+        "confidence": 86.0,
+        "box": [
+          401,
+          203,
+          52,
+          13
+        ]
+      },
+      {
+        "text": "Binor",
+        "confidence": 37.0,
+        "box": [
+          463,
+          203,
+          34,
+          13
+        ]
+      },
+      {
+        "text": "Date",
+        "confidence": 95.0,
+        "box": [
+          721,
+          203,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "12/04/2023",
+        "confidence": 40.0,
+        "box": [
+          760,
+          203,
+          69,
+          10
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 67.0,
+        "box": [
+          71,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 96.0,
+        "box": [
+          117,
+          233,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Fasli",
+        "confidence": 70.0,
+        "box": [
+          401,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 93.0,
+        "box": [
+          435,
+          233,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "1429-1434",
+        "confidence": 94.0,
+        "box": [
+          474,
+          233,
+          66,
+          10
+        ]
+      },
+      {
+        "text": "Status",
+        "confidence": 91.0,
+        "box": [
+          721,
+          232,
+          32,
+          9
+        ]
+      },
+      {
+        "text": "Camputerized",
+        "confidence": 84.0,
+        "box": [
+          761,
+          232,
+          75,
+          11
+        ]
+      },
+      {
+        "text": "Record",
+        "confidence": 12.0,
+        "box": [
+          841,
+          232,
+          38,
+          9
+        ]
+      },
+      {
+        "text": "EXTRACT",
+        "confidence": 95.0,
+        "box": [
+          51,
+          303,
+          64,
+          10
+        ]
+      },
+      {
+        "text": "OF",
+        "confidence": 96.0,
+        "box": [
+          121,
+          303,
+          18,
+          10
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          145,
+          303,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RIGHTS",
+        "confidence": 95.0,
+        "box": [
+          188,
+          303,
+          52,
+          10
+        ]
+      },
+      {
+        "text": "REGISTER",
+        "confidence": 95.0,
+        "box": [
+          245,
+          303,
+          70,
+          10
+        ]
+      },
+      {
+        "text": "(=~",
+        "confidence": 6.0,
+        "box": [
+          320,
+          303,
+          24,
+          13
+        ]
+      },
+      {
+        "text": "======-41)",
+        "confidence": 18.0,
+        "box": [
+          407,
+          303,
+          97,
+          13
+        ]
+      },
+      {
+        "text": "Owner:",
+        "confidence": 93.0,
+        "box": [
+          321,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Dinesh",
+        "confidence": 96.0,
+        "box": [
+          379,
+          395,
+          52,
+          12
+        ]
+      },
+      {
+        "text": "Kumar",
+        "confidence": 96.0,
+        "box": [
+          437,
+          395,
+          50,
+          12
+        ]
+      },
+      {
+        "text": "Verma",
+        "confidence": 96.0,
+        "box": [
+          491,
+          395,
+          48,
+          12
+        ]
+      },
+      {
+        "text": "Court",
+        "confidence": 71.0,
+        "box": [
+          731,
+          391,
+          28,
+          24
+        ]
+      },
+      {
+        "text": "Injunction",
+        "confidence": 80.0,
+        "box": [
+          764,
+          391,
+          51,
+          24
+        ]
+      },
+      {
+        "text": "Order",
+        "confidence": 96.0,
+        "box": [
+          823,
+          397,
+          27,
+          9
+        ]
+      },
+      {
+        "text": "Dated",
+        "confidence": 90.0,
+        "box": [
+          857,
+          397,
+          28,
+          9
+        ]
+      },
+      {
+        "text": "Khata:",
+        "confidence": 91.0,
+        "box": [
+          86,
+          409,
+          49,
+          12
+        ]
+      },
+      {
+        "text": "118",
+        "confidence": 93.0,
+        "box": [
+          143,
+          409,
+          26,
+          12
+        ]
+      },
+      {
+        "text": "Khasra:",
+        "confidence": 92.0,
+        "box": [
+          181,
+          409,
+          59,
+          12
+        ]
+      },
+      {
+        "text": "245/7",
+        "confidence": 92.0,
+        "box": [
+          248,
+          409,
+          40,
+          12
+        ]
+      },
+      {
+        "text": "Area:",
+        "confidence": 93.0,
+        "box": [
+          580,
+          409,
+          41,
+          12
+        ]
+      },
+      {
+        "text": "1.45",
+        "confidence": 75.0,
+        "box": [
+          629,
+          409,
+          31,
+          12
+        ]
+      },
+      {
+        "text": "ha",
+        "confidence": 75.0,
+        "box": [
+          666,
+          409,
+          18,
+          12
+        ]
+      },
+      {
+        "text": "a",
+        "confidence": 9.0,
+        "box": [
+          731,
+          422,
+          3,
+          3
+        ]
+      },
+      {
+        "text": "Father",
+        "confidence": 95.0,
+        "box": [
+          321,
+          425,
+          38,
+          10
+        ]
+      },
+      {
+        "text": "Kailash",
+        "confidence": 79.0,
+        "box": [
+          371,
+          425,
+          44,
+          10
+        ]
+      },
+      {
+        "text": "Chandra",
+        "confidence": 93.0,
+        "box": [
+          421,
+          425,
+          53,
+          10
+        ]
+      },
+      {
+        "text": "verma",
+        "confidence": 79.0,
+        "box": [
+          480,
+          426,
+          40,
+          9
+        ]
+      },
+      {
+        "text": "Khata",
+        "confidence": 92.0,
+        "box": [
+          86,
+          488,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "195",
+        "confidence": 57.0,
+        "box": [
+          134,
+          488,
+          19,
+          10
+        ]
+      },
+      {
+        "text": "Khasra",
+        "confidence": 61.0,
+        "box": [
+          181,
+          488,
+          43,
+          10
+        ]
+      },
+      {
+        "text": "245-1",
+        "confidence": 93.0,
+        "box": [
+          234,
+          488,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Sawer",
+        "confidence": 24.0,
+        "box": [
+          321,
+          482,
+          38,
+          8
+        ]
+      },
+      {
+        "text": "\u2018Sram",
+        "confidence": 12.0,
+        "box": [
+          371,
+          482,
+          32,
+          8
+        ]
+      },
+      {
+        "text": "Sabha",
+        "confidence": 93.0,
+        "box": [
+          411,
+          480,
+          39,
+          10
+        ]
+      },
+      {
+        "text": "Public",
+        "confidence": 90.0,
+        "box": [
+          456,
+          480,
+          32,
+          10
+        ]
+      },
+      {
+        "text": "Lang",
+        "confidence": 24.0,
+        "box": [
+          498,
+          480,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Area",
+        "confidence": 70.0,
+        "box": [
+          581,
+          488,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "at",
+        "confidence": 59.0,
+        "box": [
+          748,
+          489,
+          9,
+          7
+        ]
+      },
+      {
+        "text": "ke",
+        "confidence": 40.0,
+        "box": [
+          764,
+          488,
+          14,
+          8
+        ]
+      },
+      {
+        "text": "Fatt",
+        "confidence": 63.0,
+        "box": [
+          800,
+          487,
+          19,
+          9
+        ]
+      },
+      {
+        "text": "2",
+        "confidence": 31.0,
+        "box": [
+          835,
+          491,
+          4,
+          2
+        ]
+      },
+      {
+        "text": "bate",
+        "confidence": 41.0,
+        "box": [
+          321,
+          506,
+          29,
+          7
+        ]
+      },
+      {
+        "text": "ota",
+        "confidence": 28.0,
+        "box": [
+          362,
+          494,
+          20,
+          29
+        ]
+      },
+      {
+        "text": "te",
+        "confidence": 47.0,
+        "box": [
+          404,
+          494,
+          25,
+          29
+        ]
+      },
+      {
+        "text": "Bee",
+        "confidence": 39.0,
+        "box": [
+          461,
+          510,
+          5,
+          1
+        ]
+      },
+      {
+        "text": "LAND",
+        "confidence": 96.0,
+        "box": [
+          71,
+          588,
+          37,
+          10
+        ]
+      },
+      {
+        "text": "RECORD",
+        "confidence": 92.0,
+        "box": [
+          114,
+          588,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "DETAILS",
+        "confidence": 93.0,
+        "box": [
+          178,
+          588,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "&",
+        "confidence": 93.0,
+        "box": [
+          242,
+          588,
+          8,
+          10
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 96.0,
+        "box": [
+          256,
+          588,
+          65,
+          10
+        ]
+      },
+      {
+        "text": "ASSESSMENT",
+        "confidence": 96.0,
+        "box": [
+          325,
+          588,
+          94,
+          10
+        ]
+      },
+      {
+        "text": "Category",
+        "confidence": 95.0,
+        "box": [
+          71,
+          623,
+          56,
+          13
+        ]
+      },
+      {
+        "text": "Commercial",
+        "confidence": 93.0,
+        "box": [
+          137,
+          623,
+          141,
+          13
+        ]
+      },
+      {
+        "text": "-",
+        "confidence": 92.0,
+        "box": [
+          216,
+          614,
+          6,
+          29
+        ]
+      },
+      {
+        "text": "Highway",
+        "confidence": 96.0,
+        "box": [
+          228,
+          623,
+          50,
+          13
+        ]
+      },
+      {
+        "text": "Facing",
+        "confidence": 95.0,
+        "box": [
+          284,
+          623,
+          41,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 95.0,
+        "box": [
+          521,
+          623,
+          36,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 96.0,
+        "box": [
+          563,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "Circle",
+        "confidence": 96.0,
+        "box": [
+          607,
+          623,
+          34,
+          10
+        ]
+      },
+      {
+        "text": "No",
+        "confidence": 84.0,
+        "box": [
+          647,
+          623,
+          16,
+          10
+        ]
+      },
+      {
+        "text": "04",
+        "confidence": 84.0,
+        "box": [
+          673,
+          623,
+          14,
+          10
+        ]
+      },
+      {
+        "text": "(Rurali",
+        "confidence": 30.0,
+        "box": [
+          693,
+          623,
+          42,
+          10
+        ]
+      },
+      {
+        "text": "Land",
+        "confidence": 95.0,
+        "box": [
+          71,
+          653,
+          30,
+          10
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          107,
+          653,
+          55,
+          10
+        ]
+      },
+      {
+        "text": "Payable",
+        "confidence": 66.0,
+        "box": [
+          168,
+          653,
+          49,
+          11
+        ]
+      },
+      {
+        "text": "i====i",
+        "confidence": 3.0,
+        "box": [
+          229,
+          653,
+          46,
+          10
+        ]
+      },
+      {
+        "text": "Rs",
+        "confidence": 95.0,
+        "box": [
+          285,
+          653,
+          15,
+          10
+        ]
+      },
+      {
+        "text": "4850",
+        "confidence": 73.0,
+        "box": [
+          309,
+          653,
+          35,
+          10
+        ]
+      },
+      {
+        "text": "annum",
+        "confidence": 86.0,
+        "box": [
+          358,
+          655,
+          42,
+          8
+        ]
+      },
+      {
+        "text": "Last",
+        "confidence": 91.0,
+        "box": [
+          521,
+          653,
+          25,
+          10
+        ]
+      },
+      {
+        "text": "Cadastral",
+        "confidence": 91.0,
+        "box": [
+          552,
+          653,
+          59,
+          10
+        ]
+      },
+      {
+        "text": "Survey",
+        "confidence": 94.0,
+        "box": [
+          617,
+          653,
+          42,
+          11
+        ]
+      },
+      {
+        "text": "Year",
+        "confidence": 94.0,
+        "box": [
+          665,
+          653,
+          28,
+          10
+        ]
+      },
+      {
+        "text": "2021-2022",
+        "confidence": 91.0,
+        "box": [
+          703,
+          653,
+          67,
+          10
+        ]
+      },
+      {
+        "text": "es",
+        "confidence": 46.0,
+        "box": [
+          79,
+          682,
+          25,
+          9
+        ]
+      },
+      {
+        "text": "Be",
+        "confidence": 2.0,
+        "box": [
+          116,
+          682,
+          6,
+          9
+        ]
+      },
+      {
+        "text": "oP",
+        "confidence": 46.0,
+        "box": [
+          149,
+          685,
+          4,
+          4
+        ]
+      },
+      {
+        "text": "atu",
+        "confidence": 21.0,
+        "box": [
+          158,
+          683,
+          29,
+          8
+        ]
+      },
+      {
+        "text": "les",
+        "confidence": 28.0,
+        "box": [
+          249,
+          684,
+          14,
+          6
+        ]
+      },
+      {
+        "text": "Eat",
+        "confidence": 36.0,
+        "box": [
+          271,
+          683,
+          43,
+          8
+        ]
+      },
+      {
+        "text": "Loe",
+        "confidence": 58.0,
+        "box": [
+          305,
+          671,
+          15,
+          30
+        ]
+      },
+      {
+        "text": "Koon",
+        "confidence": 38.0,
+        "box": [
+          325,
+          683,
+          26,
+          8
+        ]
+      },
+      {
+        "text": "Srgratre",
+        "confidence": 4.0,
+        "box": [
+          561,
+          682,
+          61,
+          9
+        ]
+      },
+      {
+        "text": "I",
+        "confidence": 46.0,
+        "box": [
+          616,
+          672,
+          8,
+          29
+        ]
+      },
+      {
+        "text": "DS,",
+        "confidence": 13.0,
+        "box": [
+          633,
+          682,
+          15,
+          9
+        ]
+      },
+      {
+        "text": "Govt.",
+        "confidence": 62.0,
+        "box": [
+          786,
+          1095,
+          28,
+          7
+        ]
+      },
+      {
+        "text": "oF",
+        "confidence": 87.0,
+        "box": [
+          821,
+          1095,
+          12,
+          7
+        ]
+      },
+      {
+        "text": "UP",
+        "confidence": 79.0,
+        "box": [
+          838,
+          1095,
+          15,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 51.0,
+        "box": [
+          794,
+          1110,
+          4,
+          7
+        ]
+      },
+      {
+        "text": "VERIFIED",
+        "confidence": 84.0,
+        "box": [
+          803,
+          1110,
+          56,
+          7
+        ]
+      },
+      {
+        "text": "=",
+        "confidence": 54.0,
+        "box": [
+          855,
+          1098,
+          8,
+          29
+        ]
+      },
+      {
+        "text": "REVENUE",
+        "confidence": 90.0,
+        "box": [
+          789,
+          1125,
+          47,
+          7
+        ]
+      },
+      {
+        "text": "DEPT",
+        "confidence": 80.0,
+        "box": [
+          841,
+          1125,
+          26,
+          7
+        ]
+      },
+      {
+        "text": "Revenue",
+        "confidence": 96.0,
+        "box": [
+          751,
+          1243,
+          58,
+          10
+        ]
+      },
+      {
+        "text": "Inspector",
+        "confidence": 68.0,
+        "box": [
+          815,
+          1243,
+          140,
+          13
+        ]
+      },
+      {
+        "text": "/",
+        "confidence": 68.0,
+        "box": [
+          882,
+          1234,
+          6,
+          29
+        ]
+      },
+      {
+        "text": "Tehsildar",
+        "confidence": 83.0,
+        "box": [
+          894,
+          1243,
+          61,
+          13
+        ]
+      },
+      {
+        "text": "Tehsil",
+        "confidence": 90.0,
+        "box": [
+          771,
+          1262,
+          31,
+          9
+        ]
+      },
+      {
+        "text": "Sadar",
+        "confidence": 92.0,
+        "box": [
+          807,
+          1262,
+          30,
+          9
+        ]
+      }
+    ],
+    "enhanced_sample": "enhanced_demo_7_multiple_anomalies.png",
+    "annotated_sample": "annotated_demo_7_multiple_anomalies.png"
+  }
+}

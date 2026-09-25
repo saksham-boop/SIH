@@ -288,9 +288,42 @@ def process_preset_demo(preset_id: str, db: Session = Depends(get_db)):
     annotated_filename = f"{tracking_id}_annotated.png"
     annotated_path = os.path.join(ANNOTATED_DIR, annotated_filename)
 
-    # Preprocess & OCR
-    preprocess_meta = preprocess_image(raw_path, enhanced_path)
-    ocr_result = run_ocr(raw_path, enhanced_path, annotated_path)
+    # Check if pre-cached OCR data exists for this preset for instant response
+    cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "demo_ocr_cache.json")
+    cached_data = None
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, "r", encoding="utf-8") as f:
+                full_cache = json.load(f)
+                cached_data = full_cache.get(preset_id)
+        except Exception:
+            cached_data = None
+
+    if cached_data:
+        enh_sample = os.path.join(SAMPLE_DIR, cached_data.get("enhanced_sample", f"enhanced_{demo['sample_file']}"))
+        ann_sample = os.path.join(SAMPLE_DIR, cached_data.get("annotated_sample", f"annotated_{demo['sample_file']}"))
+        if os.path.exists(enh_sample):
+            shutil.copy(enh_sample, enhanced_path)
+        else:
+            shutil.copy(raw_path, enhanced_path)
+        if os.path.exists(ann_sample):
+            shutil.copy(ann_sample, annotated_path)
+        else:
+            shutil.copy(raw_path, annotated_path)
+
+        preprocess_meta = cached_data["preprocessing_meta"]
+        ocr_result = {
+            "raw_text": cached_data["raw_text"],
+            "average_confidence": cached_data["average_confidence"],
+            "word_count": cached_data["word_count"],
+            "bounding_boxes": cached_data["bounding_boxes"],
+            "annotated_path": annotated_path
+        }
+    else:
+        # Fallback to dynamic Preprocess & OCR
+        preprocess_meta = preprocess_image(raw_path, enhanced_path)
+        ocr_result = run_ocr(raw_path, enhanced_path, annotated_path)
+
     extracted_fields = extract_land_record_fields(ocr_result["raw_text"], ocr_result["bounding_boxes"])
 
     # Ensure demo exact values if OCR had noise
